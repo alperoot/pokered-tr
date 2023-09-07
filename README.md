@@ -1,3 +1,11 @@
+# Pokémon Blue Turkish Translation / Mavi Sürüm Türkçe Çeviri
+
+PokeRed Disassembly kullanarak Pokémon Blue versiyonunu Türkçe'ye çevirme projesi.
+
+Aşağıdaki linkleri kullanarak make ya da cmake için gerekli ortamı oluşturup, çevirisi yapılmış ROM'u kendiniz oluşturabilirsiniz. İçeriği farklı olduğundan, orijinal PokeRed Disassembly README dosyasında (aşağıdaki kısım) bulunan sha1 özetiyle uyuşmaması normal. Şimdilik sadece build sonrası oluşturulan pokeblue.gbc üzerinde çalışıyorum.
+
+Bu proje hala yapım aşamasında!! Elimden geldiğince ROM'daki boş yerleri kullanıp ekstra eklememeye çalışıyorum, ama GB/GBC assembly konusunda tecrübem olmadığından tam olarak ne yaptığımı bilmiyorum
+
 # Pokémon Red and Blue [![Build Status][ci-badge]][ci]
 
 This is a disassembly of Pokémon Red and Blue.
