@@ -156,6 +156,31 @@
 	charmap "'s",        $bd
 	charmap "'t",        $be
 	charmap "'v",        $bf
+	
+	; türkçe
+	charmap "ğ", 		 $c0
+	charmap "Ğ", 		 $c1
+	charmap "ç", 		 $c2
+	charmap "Ç", 		 $c3 
+	charmap "ı", 		 $c4
+	charmap "İ", 		 $c5
+	charmap "ö", 		 $c6
+	charmap "Ö", 		 $c7
+	charmap "ş", 		 $c8
+	charmap "Ş", 		 $c9
+	charmap "ü", 		 $ca
+	charmap "Ü", 		 $cb
+	
+	charmap "'ı",	 	 $cc
+	charmap "'a",		 $cd
+	charmap "'e",		 $ce
+	charmap "'i",		 $cf
+	
+	charmap "'ü",		 $d0
+	charmap "'u",		 $d1
+	charmap "'o",		 $d2
+	charmap "'ö",		 $d3
+	charmap "'n",		 $d4
 
 	charmap "'",         $e0
 	charmap "<PK>",      $e1

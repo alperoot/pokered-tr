@@ -133,33 +133,33 @@ _DexRatingText::
 _GymStatueText1::
 	text_ram wGymCityName
 	text_start
-	line "#MON GYM"
-	cont "LEADER: @"
+	line "#MON SALONU"
+	cont "LİDER: @"
 	text_ram wGymLeaderName
 	text_start
 
-	para "WINNING TRAINERS:"
+	para "GALİP EĞİTMENLER:"
 	line "<RIVAL>"
 	done
 
 _GymStatueText2::
 	text_ram wGymCityName
 	text_start
-	line "#MON GYM"
-	cont "LEADER: @"
+	line "#MON SALONU"
+	cont "LİDER: @"
 	text_ram wGymLeaderName
 	text_start
 
-	para "WINNING TRAINERS:"
+	para "GALİP EĞİTMENLER:"
 	line "<RIVAL>"
 	cont "<PLAYER>"
 	done
 
 _ViridianCityPokecenterGuyText::
-	text "#MON CENTERs"
-	line "heal your tired,"
-	cont "hurt or fainted"
-	cont "#MON!"
+	text "#MON EVleri"
+	line "yorgun ve baygın"
+	cont "#MON'ları"
+	cont "iyileştirin!"
 	done
 
 _PewterCityPokecenterGuyText::
@@ -808,12 +808,12 @@ _DiglettSculptureText::
 	done
 
 _ElevatorText::
-	text "This is an"
-	line "elevator."
+	text "Bu bir"
+	line "asansör."
 	done
 
 _TownMapText::
-	text "A TOWN MAP.@"
+	text "BİR HARİTA.@"
 	text_end
 
 _PokemonStuffText::
@@ -822,24 +822,24 @@ _PokemonStuffText::
 	done
 
 _OutOfSafariBallsText::
-	text "PA: Ding-dong!"
+	text "ANONS: Ding-dong!"
 
-	para "You are out of"
-	line "SAFARI BALLs!"
+	para "SAFARİ TOPU'nuz"
+	line "kalmadı!"
 	prompt
 
 _WildRanText::
-	text "Wild @"
+	text "Yabani @"
 	text_ram wEnemyMonNick
 	text_start
-	line "ran!"
+	line "kaçtı!"
 	prompt
 
 _EnemyRanText::
-	text "Enemy @"
+	text "Rakip @"
 	text_ram wEnemyMonNick
 	text_start
-	line "ran!"
+	line "kaçtı!"
 	prompt
 
 _HurtByPoisonText::
@@ -858,17 +858,17 @@ _HurtByLeechSeedText::
 	prompt
 
 _EnemyMonFaintedText::
-	text "Enemy @"
+	text "Rakip @"
 	text_ram wEnemyMonNick
 	text_start
-	line "fainted!"
+	line "bayıldı!"
 	prompt
 
 _MoneyForWinningText::
-	text "<PLAYER> got ¥@"
+	text "<PLAYER> ¥@"
 	text_bcd wAmountMoneyWon, 3 | LEADING_ZEROES | LEFT_ALIGN
 	text_start
-	line "for winning!"
+	line "kazandı!"
 	prompt
 
 _TrainerDefeatedText::
@@ -885,12 +885,12 @@ _PlayerMonFaintedText::
 	prompt
 
 _UseNextMonText::
-	text "Use next #MON?"
+	text "Sonraki #MON?"
 	done
 
 _Rival1WinText::
-	text "<RIVAL>: Yeah! Am"
-	line "I great or what?"
+	text "<RIVAL>: İşte bu!"
+	line "İyi miyim neyim?"
 	prompt
 
 _PlayerBlackedOutText2::
@@ -916,8 +916,8 @@ _TrainerAboutToUseText::
 	text_ram wEnemyMonNick
 	text "!"
 
-	para "Will <PLAYER>"
-	line "change #MON?"
+	para "<PLAYER> #MON"
+	line "değiştirecek mi?"
 	done
 
 _TrainerSentOutText::
@@ -934,17 +934,17 @@ _NoWillText::
 	prompt
 
 _CantEscapeText::
-	text "Can't escape!"
+	text "Kaçış yok!"
 	prompt
 
 _NoRunningText::
-	text "No! There's no"
-	line "running from a"
-	cont "trainer battle!"
+	text "Hayır! Eğitmen"
+	line "savaşlarından"
+	cont "kaçmak yok!"
 	prompt
 
 _GotAwayText::
-	text "Got away safely!"
+	text "Bölgeden kaçıldı!"
 	prompt
 
 _ItemsCantBeUsedHereText::
@@ -954,31 +954,31 @@ _ItemsCantBeUsedHereText::
 
 _AlreadyOutText::
 	text_ram wBattleMonNick
-	text " is"
-	line "already out!"
+	text " zaten"
+	line "savaşta!"
 	prompt
 
 _MoveNoPPText::
-	text "No PP left for"
-	line "this move!"
+	text "Yeterli"
+	line "SP kalmadı!"
 	prompt
 
 _MoveDisabledText::
-	text "The move is"
-	line "disabled!"
+	text "Rakibin tarafından"
+	line "engellendi!"
 	prompt
 
 _NoMovesLeftText::
 	text_ram wBattleMonNick
-	text " has no"
-	line "moves left!"
+	text " SP'sinin"
+	line "hepsini kullanmış!"
 	done
 
 _MultiHitText::
-	text "Hit the enemy"
+	text "Hedefe"
 	line "@"
 	text_decimal wPlayerNumHits, 1, 1
-	text " times!"
+	text " kere vuruldu!"
 	prompt
 
 _ScaredText::
@@ -988,91 +988,91 @@ _ScaredText::
 	prompt
 
 _GetOutText::
-	text "GHOST: Get out..."
-	line "Get out..."
+	text "HAYALET: Terket..."
+	line "Burayı terket..."
 	prompt
 
 _FastAsleepText::
 	text "<USER>"
-	line "is fast asleep!"
+	line "uyuyor!"
 	prompt
 
 _WokeUpText::
 	text "<USER>"
-	line "woke up!"
+	line "uyandı!"
 	prompt
 
 _IsFrozenText::
 	text "<USER>"
-	line "is frozen solid!"
+	line "buz gibi dondu!"
 	prompt
 
 _FullyParalyzedText::
-	text "<USER>'s"
-	line "fully paralyzed!"
+	text "<USER>"
+	line "tamamen felçli!"
 	prompt
 
 _FlinchedText::
 	text "<USER>"
-	line "flinched!"
+	line "sırasını kaçırdı!"
 	prompt
 
 _MustRechargeText::
 	text "<USER>"
-	line "must recharge!"
+	line "dinleniyor!"
 	prompt
 
 _DisabledNoMoreText::
-	text "<USER>'s"
-	line "disabled no more!"
+	text "<USER> artık"
+	line "engelli değil!"
 	prompt
 
 _IsConfusedText::
 	text "<USER>"
-	line "is confused!"
+	line "şaşırıp kaldı!"
 	prompt
 
 _HurtItselfText::
-	text "It hurt itself in"
-	line "its confusion!"
+	text "Dalgınlığında"
+	line "kendisine saldırdı!"
 	prompt
 
 _ConfusedNoMoreText::
-	text "<USER>'s"
-	line "confused no more!"
+	text "<USER> artık"
+	line "şaşkın değil!"
 	prompt
 
 _SavingEnergyText::
 	text "<USER>"
-	line "is saving energy!"
+	line "gücünü topluyor!"
 	prompt
 
 _UnleashedEnergyText::
 	text "<USER>"
-	line "unleashed energy!"
+	line "gücünü gösterdi!"
 	prompt
 
 _ThrashingAboutText::
-	text "<USER>'s"
-	line "thrashing about!"
+	text "<USER>"
+	line "etrafa dalıyor!"
 	done
 
 _AttackContinuesText::
-	text "<USER>'s"
-	line "attack continues!"
+	text "<USER>"
+	line "hala savaşıyor!"
 	done
 
 _CantMoveText::
 	text "<USER>"
-	line "can't move!"
+	line "hareket edemiyor!"
 	prompt
 
 _MoveIsDisabledText::
 	text "<USER>'s"
 	line "@"
 	text_ram wcd6d
-	text " is"
-	cont "disabled!"
+	text " artık"
+	cont "engelli!"
 	prompt
 
 _MonName1Text::
@@ -1119,8 +1119,8 @@ _ExclamationPoint5Text::
 	done
 
 _AttackMissedText::
-	text "<USER>'s"
-	line "attack missed!"
+	text "<USER>"
+	line "kaçırdı!"
 	prompt
 
 _KeptGoingAndCrashedText::
@@ -1130,67 +1130,67 @@ _KeptGoingAndCrashedText::
 	prompt
 
 _UnaffectedText::
-	text "<TARGET>'s"
-	line "unaffected!"
+	text "<TARGET>"
+	line "etkilenmedi!"
 	prompt
 
 _DoesntAffectMonText::
-	text "It doesn't affect"
-	line "<TARGET>!"
+	text "<TARGET>"
+	line "etkilenmedi!"
 	prompt
 
 _CriticalHitText::
-	text "Critical hit!"
+	text "Kritik hasar!"
 	prompt
 
 _OHKOText::
-	text "One-hit KO!"
+	text "Tek vuruşta alt etti!"
 	prompt
 
 _LoafingAroundText::
 	text_ram wBattleMonNick
-	text " is"
-	line "loafing around."
+	text " boş"
+	line "boş etrafa bakınıyor."
 	prompt
 
 _BeganToNapText::
 	text_ram wBattleMonNick
-	text " began"
-	line "to nap!"
+	text " uzanıp"
+	line "dinlenmeye başladı!"
 	prompt
 
 _WontObeyText::
 	text_ram wBattleMonNick
-	text " won't"
-	line "obey!"
+	text " emire"
+	line "uymuyor!"
 	prompt
 
 _TurnedAwayText::
 	text_ram wBattleMonNick
-	text " turned"
-	line "away!"
+	text " kafasını"
+	line "döndürdü!"
 	prompt
 
 _IgnoredOrdersText::
 	text_ram wBattleMonNick
 	text_start
-	line "ignored orders!"
+	line "emirleri dinlemedi!"
 	prompt
 
 _SubstituteTookDamageText::
-	text "The SUBSTITUTE"
-	line "took damage for"
-	cont "<TARGET>!"
+	text "KUKLA"
+	line "<TARGET> yerine"
+	cont "hasar aldı!"
 	prompt
 
 _SubstituteBrokeText::
-	text "<TARGET>'s"
-	line "SUBSTITUTE broke!"
+	text "<TARGET>"
+	line "KUKLA'sı kırıldı!"
 	prompt
 
 _BuildingRageText::
-	text "<USER>'s"
-	line "RAGE is building!"
+	text "<USER>"
+	line "ÖFKE biriktiriyor!"
 	prompt
 
 _MirrorMoveFailedText::
@@ -1234,7 +1234,7 @@ _GrewLevelText::
 	text_end
 
 _WildMonAppearedText::
-	text "Wild @"
+	text "Yabani @"
 	text_ram wEnemyMonNick
 	text_start
 	line "appeared!"
@@ -1272,20 +1272,21 @@ _GhostCantBeIDdText::
 	prompt
 
 _GoText::
-	text "Go! @"
+	text "Hadi! @"
 	text_end
 
 _DoItText::
-	text "Do it! @"
+	text "Hadi! @"
 	text_end
 
 _GetmText::
-	text "Get'm! @"
+	text "Seni seçtim!"
+	line "@"
 	text_end
 
 _EnemysWeakText::
-	text "The enemy's weak!"
-	line "Get'm! @"
+	text "Fazla dayanamaz!"
+	line "Hadi! @"
 	text_end
 
 _PlayerMon1Text::
@@ -1299,81 +1300,81 @@ _PlayerMon2Text::
 	text_end
 
 _EnoughText::
-	text "enough!@"
+	text "yeter!@"
 	text_end
 
 _OKExclamationText::
-	text "OK!@"
+	text "TM!@"
 	text_end
 
 _GoodText::
-	text "good!@"
+	text "iyi!@"
 	text_end
 
 _ComeBackText::
 	text_start
-	line "Come back!"
+	line "Geri gel!"
 	done
 
 _SuperEffectiveText::
-	text "It's super"
-	line "effective!"
+	text "Etkili bir"
+	line "vuruş!"
 	prompt
 
 _NotVeryEffectiveText::
-	text "It's not very"
-	line "effective..."
+	text "Pek de etkili"
+	line "değil..."
 	prompt
 
 _SafariZoneEatingText::
-	text "Wild @"
+	text "Yabani @"
 	text_ram wEnemyMonNick
 	text_start
-	line "is eating!"
+	line "yemek yiyor!"
 	prompt
 
 _SafariZoneAngryText::
-	text "Wild @"
+	text "Yabani @"
 	text_ram wEnemyMonNick
 	text_start
-	line "is angry!"
+	line "sinirli!"
 	prompt
 
 ; money related
 _PickUpPayDayMoneyText::
-	text "<PLAYER> picked up"
-	line "¥@"
+	text "<PLAYER> ¥@"
+	line "buldu"
 	text_bcd wTotalPayDayMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
 	text "!"
 	prompt
 
 _ClearSaveDataText::
-	text "Clear all saved"
-	line "data?"
+	text "Kayıtlı veriyi"
+	line "sil?"
 	done
 
 _WhichFloorText::
-	text "Which floor do"
-	line "you want? "
+	text "Kaçıncı kat?"
 	done
 
 _PartyMenuNormalText::
-	text "Choose a #MON."
+	text "#MON seç."
 	done
 
 _PartyMenuItemUseText::
-	text "Use item on which"
-	line "#MON?"
+	text "Hangi #MON"
+	line "için kullan?"
 	done
 
 _PartyMenuBattleText::
-	text "Bring out which"
-	line "#MON?"
+	text "Hangi #MON"
+	line "gelsin?"
 	done
 
 _PartyMenuUseTMText::
-	text "Use TM on which"
-	line "#MON?"
+	text "TM'yi hangi"
+	line "#MON için"
+	cont "kullan?"
 	done
 
 _PartyMenuSwapMonText::
@@ -1384,64 +1385,64 @@ _PartyMenuSwapMonText::
 _PotionText::
 	text_ram wcd6d
 	text_start
-	line "recovered by @"
+	line "iyileşmesi: @"
 	text_decimal wHPBarHPDifference, 2, 3
 	text "!"
 	done
 
 _AntidoteText::
 	text_ram wcd6d
-	text " was"
-	line "cured of poison!"
+	text " zehirden"
+	line "kurtuldu!"
 	done
 
 _ParlyzHealText::
 	text_ram wcd6d
-	text "'s"
-	line "rid of paralysis!"
+	text " artık"
+	line "felç değil!"
 	done
 
 _BurnHealText::
 	text_ram wcd6d
-	text "'s"
-	line "burn was healed!"
+	text " artık"
+	line "yanmıyor!"
 	done
 
 _IceHealText::
 	text_ram wcd6d
-	text " was"
-	line "defrosted!"
+	text " artık"
+	line "donuk değil!"
 	done
 
 _AwakeningText::
 	text_ram wcd6d
 	text_start
-	line "woke up!"
+	line "uyandı!"
 	done
 
 _FullHealText::
 	text_ram wcd6d
-	text "'s"
-	line "health returned!"
+	text ""
+	line "sağlığına kavuştu!"
 	done
 
 _ReviveText::
 	text_ram wcd6d
 	text_start
-	line "is revitalized!"
+	line "geri döndü!"
 	done
 
 _RareCandyText::
 	text_ram wcd6d
-	text " grew"
-	line "to level @"
+	text " şu"
+	line "seviyede: @"
 	text_decimal wCurEnemyLVL, 1, 3
 	text "!@"
 	text_end
 
 _TurnedOnPC1Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> PC'yi"
+	line "açtı."
 	prompt
 
 _AccessedBillsPCText::
@@ -1694,81 +1695,81 @@ _LinkCanceledText::
 	done
 
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "Selam! #MON"
+	line "dünyasına"
+	cont "hoş geldin!"
 
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "Ben OAK! Bana"
+	line "#MON PROF'u"
+	cont "da diyebilirsin!"
 	prompt
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
-	cont "#MON!@"
+	text "Bu dünya"
+	line "#MON denilen"
+	cont "canlılar ile"
+	cont "dolu!@"
 	text_end
 
 _OakSpeechText2B::
 	text_start
 
-	para "For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	para "Bazı #MON'lar"
+	line "evcilleştirilir."
+	cont "Bazıları savaş"
+	cont "için eğitilir."
 
-	para "Myself..."
+	para "Ben ise..."
 
-	para "I study #MON"
-	line "as a profession."
+	para "#MON'ları"
+	line "araştırıyorum."
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "Öncelikle,"
+	line "adın ne?"
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "Bu benim torunum."
+	line "Çocukluğunuzdan"
+	cont "beri arkadaşça"
+	cont "rekabet ettiniz."
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "...Şey, ismi"
+	line "neydi?"
 	prompt
 
 _OakSpeechText3::
 	text "<PLAYER>!"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "Kendi #MON"
+	line "maceran başlamak"
+	cont "üzere!"
 
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	para "#MON, heyecan,"
+	line "ve daha bir çoğu"
+	cont "seni bekliyor!"
+	cont "Hadi gidelim!"
 	done
 
 _DoYouWantToNicknameText::
-	text "Do you want to"
-	line "give a nickname"
-	cont "to @"
+	text "@"
 	text_ram wcd6d
-	text "?"
+	text " için"
+	line "takma ad verilsin"
+	cont "mi?"
 	done
 
 _YourNameIsText::
-	text "Right! So your"
-	line "name is <PLAYER>!"
+	text "<PLAYER>,"
+	line "memnun oldum!"
 	prompt
 
 _HisNameIsText::
-	text "That's right! I"
-	line "remember now! His"
-	cont "name is <RIVAL>!"
+	text "Doğru ya,"
+	line "hatırladım! Onun"
+	cont "ismi <RIVAL>!"
 	prompt
 
 _WillBeTradedText::
@@ -1782,7 +1783,7 @@ _WillBeTradedText::
 
 _TextIDErrorText::
 	text_decimal hSpriteIndexOrTextID, 1, 2
-	text " ERROR."
+	text " HATA."
 	done
 
 _ContCharText::
