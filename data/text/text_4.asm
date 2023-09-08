@@ -1,20 +1,20 @@
 _PokemartGreetingText::
-	text "Hi there!"
-	next "May I help you?"
+	text "Merhaba! Nasıl"
+	next "yardımcı olayım?"
 	done
 
 _PokemonFaintedText::
 	text_ram wcd6d
 	text_start
-	line "fainted!"
+	line "bayıldı!"
 	done
 
 _PlayerBlackedOutText::
 	text "<PLAYER> is out of"
 	line "useable #MON!"
 
-	para "<PLAYER> blacked"
-	line "out!"
+	para "<PLAYER> kendinden"
+	line "geçti!"
 	prompt
 
 _RepelWoreOffText::
@@ -23,82 +23,80 @@ _RepelWoreOffText::
 	done
 
 _PokemartBuyingGreetingText::
-	text "Take your time."
+	text "Mevcut ürünler"
 	done
 
 _PokemartTellBuyPriceText::
 	text_ram wStringBuffer
 	text "?"
-	line "That will be"
-	cont "¥@"
+	line "Fiyatı ¥@"
 	text_bcd hMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text ". OK?"
+	text "."
+	cont "Uygun mu?"
 	done
 
 _PokemartBoughtItemText::
-	text "Here you are!"
-	line "Thank you!"
+	text "Tamamdır! Güle"
+	line "güle kullanın!"
 	prompt
 
 _PokemartNotEnoughMoneyText::
-	text "You don't have"
-	line "enough money."
+	text "Bakiye"
+	line "yetersiz."
 	prompt
 
 _PokemartItemBagFullText::
-	text "You can't carry"
-	line "any more items."
+	text "Çantanız dolu."
 	prompt
 
 _PokemonSellingGreetingText::
-	text "What would you"
-	line "like to sell?"
+	text "Ne satmak"
+	line "istersiniz?"
 	done
 
 _PokemartTellSellPriceText::
-	text "I can pay you"
-	line "¥@"
+	text "Buna ¥@"
 	text_bcd hMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text " for that."
+	cont "verebilirim."
 	done
 
 _PokemartItemBagEmptyText::
-	text "You don't have"
-	line "anything to sell."
+	text "Satabilecek"
+	line "eşyanız yok."
 	prompt
 
 _PokemartUnsellableItemText::
-	text "I can't put a"
-	line "price on that."
+	text "Bu eşyaya"
+	line "paha biçemem."
 	prompt
 
 _PokemartThankYouText::
-	text "Thank you!"
+	text "Yine bekleriz!"
 	done
 
 _PokemartAnythingElseText::
-	text "Is there anything"
-	line "else I can do?"
+	text "Başka nasıl"
+	line "yardım edeyim?"
 	done
 
 _LearnedMove1Text::
 	text_ram wLearnMoveMonName
-	text " learned"
+	text " artık"
 	line "@"
 	text_ram wStringBuffer
-	text "!@"
+	line "biliyor!@"
 	text_end
 
 _WhichMoveToForgetText::
-	text "Which move should"
-	next "be forgotten?"
+	text "Hangi hareket"
+	next "unutulsun?"
 	done
 
 _AbandonLearningText::
-	text "Abandon learning"
-	line "@"
+	text "@"
 	text_ram wStringBuffer
-	text "?"
+	line "unutmaktan"
+	cont "vazgeçilsin mi?"
 	done
 
 _DidNotLearnText::

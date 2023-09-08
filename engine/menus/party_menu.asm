@@ -90,7 +90,7 @@ RedrawPartyMenu_::
 	jr nz, .placeMoveLearnabilityString
 	ld de, .notAbleToLearnMoveText
 .placeMoveLearnabilityString
-	ld bc, 20 + 9 ; down 1 row and right 9 columns
+	ld bc, 20 + 6 ; down 1 row and right 9 columns
 	push hl
 	add hl, bc
 	call PlaceString
@@ -108,9 +108,9 @@ RedrawPartyMenu_::
 	inc c
 	jp .loop
 .ableToLearnMoveText
-	db "ABLE@"
+	db "ÖĞRENEBİLİR@"
 .notAbleToLearnMoveText
-	db "NOT ABLE@"
+	db "ÖĞRENEMEZ@"
 .evolutionStoneMenu
 	push hl
 	ld hl, EvosMovesPointerTable

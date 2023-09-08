@@ -2883,6 +2883,10 @@ PrintMenuItem:
 	hlcoord 1, 9
 	ld de, TypeText
 	call PlaceString
+	hlcoord 1, 11
+	ld a, "<BOLD_S>"
+	ld [hli], a
+	ld [hl], "<BOLD_P>"
 	hlcoord 7, 11
 	ld [hl], "/"
 	hlcoord 5, 9
@@ -2904,10 +2908,10 @@ PrintMenuItem:
 	jp Delay3
 
 DisabledText:
-	db "disabled!@"
+	db "engelli!@"
 
 TypeText:
-	db "TYPE@"
+	db "TÜR@"
 
 SelectEnemyMove:
 	ld a, [wLinkState]

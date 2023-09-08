@@ -67,7 +67,7 @@ JapaneseMainMenuText:
 
 BattleMenuText:
 	db   "SAVAŞ <PK><MN>"
-	next "ÇANTA  KAÇ@"
+	next "ÇANTA KAÇ@"
 
 SafariZoneBattleMenuText:
 	db   "TOP ×       YEM"

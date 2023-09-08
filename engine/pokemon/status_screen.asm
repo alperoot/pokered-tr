@@ -97,10 +97,6 @@ StatusScreen:
 	ld hl, vChars2 tile $76
 	lb bc, BANK(BattleHudTiles3), 2
 	call CopyVideoDataDouble ; ─ ┘
-	ld de, PTile
-	ld hl, vChars2 tile $72
-	lb bc, BANK(PTile), 1
-	call CopyVideoDataDouble ; bold P (for PP)
 	ldh a, [hTileAnimations]
 	push af
 	xor a
@@ -205,11 +201,11 @@ NamePointers2:
 	dw wDayCareMonName
 
 Type1Text:
-	db   "TYPE1/"
+	db   "1.TÜR/"
 	next ""
 	; fallthrough
 Type2Text:
-	db   "TYPE2/"
+	db   "2.TÜR/"
 	next ""
 	; fallthrough
 IDNoText:
@@ -217,14 +213,14 @@ IDNoText:
 	next ""
 	; fallthrough
 OTText:
-	db   "OT/"
+	db   "AE/"
 	next "@"
 
 StatusText:
-	db "STATUS/@"
+	db "DURUM/@"
 
 OKText:
-	db "OK@"
+	db "İYİ@"
 
 ; Draws a line starting from hl high b and wide c
 DrawLineBox:
@@ -243,8 +239,6 @@ DrawLineBox:
 	jr nz, .PrintHorizLine
 	ld [hl], $6f ; ← (halfarrow ending)
 	ret
-
-PTile: INCBIN "gfx/font/P.1bpp"
 
 PrintStatsBox:
 	ld a, d
@@ -290,10 +284,10 @@ PrintStat:
 	ret
 
 StatsText:
-	db   "ATTACK"
-	next "DEFENSE"
-	next "SPEED"
-	next "SPECIAL@"
+	db   "SALDIRI"
+	next "SAVUNMA"
+	next "HIZ"
+	next "ÖZEL@"
 
 StatusScreen2:
 	ldh a, [hTileAnimations]
@@ -330,7 +324,7 @@ StatusScreen2:
 	hlcoord 11, 10
 	ld de, SCREEN_WIDTH * 2
 	ld a, "<BOLD_P>"
-	call StatusScreen_PrintPP ; Print "PP"
+	call StatusScreen_PrintSP ; Print "PP"
 	ld a, b
 	and a
 	jr z, .InitPP
@@ -479,4 +473,14 @@ StatusScreen_PrintPP:
 	add hl, de
 	dec c
 	jr nz, StatusScreen_PrintPP
+	ret
+
+StatusScreen_PrintSP:
+	ld a, "<BOLD_S>"
+	ld [hli], a
+	ld a, "<BOLD_P>"
+	ld [hld], a
+	add hl, de
+	dec c
+	jr nz, StatusScreen_PrintSP
 	ret

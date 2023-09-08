@@ -38,7 +38,7 @@
 	charmap "<BOLD_H>",  $67 ; unused
 	charmap "<BOLD_I>",  $68 ; unused
 	charmap "<BOLD_V>",  $69
-	charmap "<BOLD_S>",  $6a
+	; charmap "<BOLD_S>",  $6a
 	charmap "<BOLD_L>",  $6b ; unused
 	charmap "<BOLD_M>",  $6c ; unused
 	charmap "<COLON>",   $6d ; colon with tinier dots than ":"
@@ -68,7 +68,8 @@
 
 	charmap "<to>",      $70 ; narrow "to"
 
-	charmap "『",         $72 ; Japanese opening quote, unused
+	charmap "<BOLD_S>",  $d8
+	charmap "<BOLD_P>",  $72
 	charmap "<ID>",      $73
 	charmap "№",         $74
 
@@ -77,9 +78,6 @@
 	; needed for ShowPokedexDataInternal (see engine/menus/pokedex.asm)
 	charmap "′",         $60 ; gfx/pokedex/pokedex.png
 	charmap "″",         $61 ; gfx/pokedex/pokedex.png
-
-	; needed for StatusScreen (see engine/pokemon/status_screen.asm)
-	charmap "<BOLD_P>",  $72 ; gfx/font/P.1bpp
 
 	; needed for LoadTownMap_Fly (see engine/items/town_map.asm)
 	charmap "▲",         $ed ; gfx/town_map/up_arrow.1bpp
