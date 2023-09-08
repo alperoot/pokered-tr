@@ -1,16 +1,16 @@
 _CardKeySuccessText1::
-	text "Bingo!@"
+	text "İşte!@"
 	text_end
 
 _CardKeySuccessText2::
 	text_start
-	line "The CARD KEY"
-	cont "opened the door!"
+	line "KART kapı"
+	cont "kilidini açtı!"
 	done
 
 _CardKeyFailText::
-	text "Darn! It needs a"
-	line "CARD KEY!"
+	text "Kapıyı açmak için"
+	line "bir KART lazım."
 	done
 
 _TrainerNameText::
@@ -19,17 +19,17 @@ _TrainerNameText::
 	text_end
 
 _NoNibbleText::
-	text "Not even a nibble!"
+	text "Hiç hareket yok!"
 	prompt
 
 _NothingHereText::
-	text "Looks like there's"
-	line "nothing here."
+	text "Burada bir şey yok"
+	line "gibi duruyor."
 	prompt
 
 _ItsABiteText::
-	text "Oh!"
-	line "It's a bite!"
+	text "İşte!"
+	line "Oltada bir şey var!"
 	prompt
 
 _ExclamationText::
@@ -37,86 +37,91 @@ _ExclamationText::
 	done
 
 _GroundRoseText::
-	text "Ground rose up"
-	line "somewhere!"
+	text "Bir yerlerde yer"
+	line "parçası yükseldi!"
 	done
 
 _BoulderText::
-	text "This requires"
-	line "STRENGTH to move!"
+	text "Bunun için GÜÇ"
+	line "saldırısı gerekiyor!"
 	done
 
 _MartSignText::
-	text "All your item"
-	line "needs fulfilled!"
-	cont "#MON MART"
+	text "Ne ararsanız"
+	line "bizde var!"
+	cont "#MON MARKET"
 	done
 
 _PokeCenterSignText::
-	text "Heal Your #MON!"
-	line "#MON CENTER"
+	text "#MON iyileştir!"
+	line "#MON MERKEZİ"
 	done
 
 _FoundItemText::
-	text "<PLAYER> found"
+	text "<PLAYER>"
 	line "@"
 	text_ram wStringBuffer
-	text "!@"
+	text "buldu!@"
 	text_end
 
 _NoMoreRoomForItemText::
-	text "No more room for"
-	line "items!"
+	text "Daha fazla eşyaya"
+	line "yer kalmadı!"
 	done
 
 _OaksAideHiText::
-	text "Hi! Remember me?"
-	line "I'm PROF.OAK's"
-	cont "AIDE!"
+	text "Selam!"
+	line "Ben PROF.OAK'ın"
+	cont "asistanıyım!"
 
-	para "If you caught @"
+	para "Eğer @"
 	text_decimal hOaksAideRequirement, 1, 3
 	text_start
-	line "kinds of #MON,"
-	cont "I'm supposed to"
-	cont "give you an"
+	line "tane #MON"
+	cont "yakaladıysan sana"
+	; cont "give you an"
 	cont "@"
 	text_ram wOaksAideRewardItemName
-	text "!"
+	text " vermem"
+	cont "gerekiyormuş."
 
-	para "So, <PLAYER>! Have"
-	line "you caught at"
-	cont "least @"
+	para "Peki, <PLAYER>,"
+	line "en az @"
+	; cont "least @"
 	text_decimal hOaksAideRequirement, 1, 3
-	text " kinds of"
-	cont "#MON?"
+	text " tür"
+	cont "#MON"
+	cont "yakaladın mı?"
 	done
 
 _OaksAideUhOhText::
-	text "Let's see..."
-	line "Uh-oh! You have"
-	cont "caught only @"
-	text_decimal hOaksAideNumMonsOwned, 1, 3
-	text_start
-	cont "kinds of #MON!"
-
-	para "You need @"
-	text_decimal hOaksAideRequirement, 1, 3
-	text " kinds"
-	line "if you want the"
+	text "Bir bakalım..."
+	line "Maalesef yalnızca"
 	cont "@"
+	; cont "caught only @"
+	text_decimal hOaksAideNumMonsOwned, 1, 3
+	text " tür #MON"
+	cont "yakalamışsın."
+
+	para "@"
 	text_ram wOaksAideRewardItemName
-	text "."
+	text " için en az"
+	line "@"
+	; cont "en az @"
+	text_decimal hOaksAideRequirement, 1, 3
+	text " tür #MON"
+	cont "yakalamış olman"
+	cont "lazım."
 	done
 
 _OaksAideComeBackText::
-	text "Oh. I see."
+	text "Pekala."
 
-	para "When you get @"
+	para "@"
 	text_decimal hOaksAideRequirement, 1, 3
-	text_start
-	line "kinds, come back"
-	cont "for @"
+	text " tür #MON"
+	line "yakalayabilirsen"
+	cont "ödülün @"
 	text_ram wOaksAideRewardItemName
 	text "."
 	done
