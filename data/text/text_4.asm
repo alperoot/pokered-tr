@@ -55,9 +55,10 @@ _PokemonSellingGreetingText::
 	done
 
 _PokemartTellSellPriceText::
-	text "Buna ¥@"
+	text "Buna eşyaya"
+	line "¥@"
 	text_bcd hMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	cont "verebilirim."
+	text " verebilirim."
 	done
 
 _PokemartItemBagEmptyText::
