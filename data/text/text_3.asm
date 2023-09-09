@@ -1,101 +1,102 @@
 _FileDataDestroyedText::
-	text "The file data is"
-	line "destroyed!"
+	text "Kayıt dosyası"
+	line "silinmiş!"
 	prompt
 
 _WouldYouLikeToSaveText::
-	text "Would you like to"
-	line "SAVE the game?"
+	text "Oyunu kaydetmek"
+	line "ister misin?"
 	done
 
 _GameSavedText::
-	text "<PLAYER> saved"
-	line "the game!"
+	text "<PLAYER> oyunu"
+	line "kaydetti!"
 	done
 
 _OlderFileWillBeErasedText::
-	text "The older file"
-	line "will be erased to"
-	cont "save. Okay?"
+	text "Eski kayıt"
+	line "dosyasının üstüne"
+	cont "yazılsın mı?"
 	done
 
 _WhenYouChangeBoxText::
-	text "When you change a"
-	line "#MON BOX, data"
-	cont "will be saved."
+	text "#MON KUTUsunu"
+	line "değişince oyun"
+	cont "kaydedilecek."
 
-	para "Is that okay?"
+	para "Devam edilsin mi?"
 	done
 
 _ChooseABoxText::
-	text "Choose a"
-	line "<PKMN> BOX.@"
+	text "<PKMN> KUTUsu"
+	line "seç.@"
 	text_end
 
 _EvolvedText::
 	text_ram wStringBuffer
-	text " evolved"
+	text " şuna"
 	done
 
 _IntoText::
 	text_start
-	line "into @"
+	line "evrildi: @"
 	text_ram wcd6d
 	text "!"
 	done
 
 _StoppedEvolvingText::
-	text "Huh? @"
+	text "Ne? @"
 	text_ram wStringBuffer
 	text_start
-	line "stopped evolving!"
+	line "evrilmeyi bıraktı!"
 	prompt
 
 _IsEvolvingText::
-	text "What? @"
+	text "Ne? @"
 	text_ram wStringBuffer
 	text_start
-	line "is evolving!"
+	line "evrim geçiriyor!"
 	done
 
 _FellAsleepText::
 	text "<TARGET>"
-	line "fell asleep!"
+	line "uyuyakaldı!"
 	prompt
 
 _AlreadyAsleepText::
-	text "<TARGET>'s"
-	line "already asleep!"
+	text "<TARGET>"
+	line "zaten uyuyor!"
 	prompt
 
 _PoisonedText::
 	text "<TARGET>"
-	line "was poisoned!"
+	line "zehirlendi!"
 	prompt
 
 _BadlyPoisonedText::
-	text "<TARGET>'s"
-	line "badly poisoned!"
+	text "<TARGET>"
+	line "fena zehirlendi!"
 	prompt
 
 _BurnedText::
 	text "<TARGET>"
-	line "was burned!"
+	line "alev aldı!"
 	prompt
 
 _FrozenText::
 	text "<TARGET>"
-	line "was frozen solid!"
+	line "buz gibi dondu!"
 	prompt
 
 _FireDefrostedText::
-	text "Fire defrosted"
-	line "<TARGET>!"
+	text "Alev <TARGET>"
+	line "buzlarını eritti!"
 	prompt
 
 _MonsStatsRoseText::
-	text "<USER>'s"
-	line "@"
+	text "<USER> artık"
+	line "artık daha"
+	cont "@"
 	text_ram wStringBuffer
 	text "@"
 	text_end
@@ -109,33 +110,34 @@ _RoseText::
 	prompt
 
 _MonsStatsFellText::
-	text "<TARGET>'s"
-	line "@"
+	text "<TARGET>"
+	line "daha az"
+	cont "@"
 	text_ram wStringBuffer
 	text "@"
 	text_end
 
 _GreatlyFellText::
-	text "<SCROLL>greatly@"
+	text "<SCROLL>çok@"
 	text_end
 
 _FellText::
-	text " fell!"
+	text "!"
 	prompt
 
 _RanFromBattleText::
 	text "<USER>"
-	line "ran from battle!"
+	line "kaçtı!"
 	prompt
 
 _RanAwayScaredText::
 	text "<TARGET>"
-	line "ran away scared!"
+	line "korkarak kaçtı!"
 	prompt
 
 _WasBlownAwayText::
 	text "<TARGET>"
-	line "was blown away!"
+	line "kapılıp uçtu!"
 	prompt
 
 _ChargeMoveEffectText::
@@ -144,53 +146,51 @@ _ChargeMoveEffectText::
 
 _MadeWhirlwindText::
 	text_start
-	line "made a whirlwind!"
+	line "bir gidap yaptı!"
 	prompt
 
 _TookInSunlightText::
 	text_start
-	line "took in sunlight!"
+	line "günışığı topladı!"
 	prompt
 
 _LoweredItsHeadText::
 	text_start
-	line "lowered its head!"
+	line "kafasını indirdi!"
 	prompt
 
 _SkyAttackGlowingText::
 	text_start
-	line "is glowing!"
+	line "parlamaya başladı!"
 	prompt
 
 _FlewUpHighText::
 	text_start
-	line "flew up high!"
+	line "yükseklere uçtu!"
 	prompt
 
 _DugAHoleText::
 	text_start
-	line "dug a hole!"
+	line "bir tünel kazdı!"
 	prompt
 
 _BecameConfusedText::
 	text "<TARGET>"
-	line "became confused!"
+	line "şaşırıp kaldı!"
 	prompt
 
 _MimicLearnedMoveText::
 	text "<USER>"
-	line "learned"
-	cont "@"
+	line "artık @"
 	text_ram wcd6d
-	text "!"
+	cont "biliyor!"
 	prompt
 
 _MoveWasDisabledText::
-	text "<TARGET>'s"
+	text "<TARGET> artık"
 	line "@"
 	text_ram wcd6d
-	text " was"
-	cont "disabled!"
+	line "kullanamaz!"
 	prompt
 
 _NothingHappenedText::

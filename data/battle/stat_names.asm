@@ -2,9 +2,9 @@
 
 VitaminStats:
 	list_start VitaminStats
-	li "HEALTH"
-	li "ATTACK"
-	li "DEFENSE"
-	li "SPEED"
-	li "SPECIAL"
+	li "CAN"
+	li "SALDIRI"
+	li "SAVUNMA"
+	li "HIZ"
+	li "ÖZEL"
 	assert_list_length NUM_STATS

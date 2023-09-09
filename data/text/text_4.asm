@@ -85,7 +85,8 @@ _LearnedMove1Text::
 	text " artık"
 	line "@"
 	text_ram wStringBuffer
-	line "biliyor!@"
+	text ""
+	cont "biliyor!@"
 	text_end
 
 _WhichMoveToForgetText::
