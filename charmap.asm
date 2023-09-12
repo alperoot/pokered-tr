@@ -179,6 +179,9 @@
 	charmap "'o",		 $d2
 	charmap "'ö",		 $d3
 	charmap "'n",		 $d4
+	
+	charmap "â",		 $d5
+	charmap "Â",		 $d6
 
 	charmap "'",         $e0
 	charmap "<PK>",      $e1

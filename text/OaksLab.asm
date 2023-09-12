@@ -1,159 +1,162 @@
 _OaksLabRivalGrampsIsntAroundText::
-	text "<RIVAL>: Yo"
-	line "<PLAYER>! Gramps"
-	cont "isn't around!"
+	text "<RIVAL>: Hey"
+	line "<PLAYER>! Dedem"
+	cont "buralarda değil!"
 	done
 
 _OaksLabRivalGoAheadAndChooseText::
-	text "<RIVAL>: Heh, I"
-	line "don't need to be"
-	cont "greedy like you!"
+	text "<RIVAL>: Heh,"
+	line "ben senin gibi"
+	cont "aç gözlü değilim!"
 
-	para "Go ahead and"
-	line "choose, <PLAYER>!"
+	para "Önce sen seç,"
+	line "<PLAYER>!"
 	done
 
 _OaksLabRivalMyPokemonLooksStrongerText::
-	text "<RIVAL>: My"
-	line "#MON looks a"
-	cont "lot stronger."
+	text "<RIVAL>: Benim"
+	line "#MON'um daha"
+	cont "güçlü görünüyor."
 	done
 
 _OaksLabThoseArePokeBallsText::
-	text "Those are #"
-	line "BALLs. They"
-	cont "contain #MON!"
+	text "Bu TOPlarda"
+	line "#MON"
+	cont "bulunuyor!"
 	done
 
 _OaksLabYouWantCharmanderText::
-	text "So! You want the"
-	line "fire #MON,"
-	cont "CHARMANDER?"
+	text "Tercihin,"
+	line "ateş #MON'u"
+	cont "CHARMANDER mı?"
 	done
 
 _OaksLabYouWantSquirtleText::
-	text "So! You want the"
-	line "water #MON,"
-	cont "SQUIRTLE?"
+	text "Tercihin,"
+	line "su #MON'u"
+	cont "SQUIRTLE mi?"
 	done
 
 _OaksLabYouWantBulbasaurText::
-	text "So! You want the"
-	line "plant #MON,"
-	cont "BULBASAUR?"
+	text "Tercihin,"
+	line "bitki #MON'u"
+	cont "BULBASAUR mu?"
 	done
 
 _OaksLabMonEnergeticText::
-	text "This #MON is"
-	line "really energetic!"
+	text "Bu #MON"
+	line "oldukça enerjik!"
 	prompt
 
 _OaksLabReceivedMonText::
-	text "<PLAYER> received"
-	line "a @"
+	text "<PLAYER> artık"
+	line "@"
 	text_ram wcd6d
-	text "!@"
+	text ""
+	cont "sahibi!@"
 	text_end
 
 _OaksLabLastMonText::
-	text "That's PROF.OAK's"
-	line "last #MON!"
+	text "Bu PROF.OAK'un"
+	line "son #MON'u!"
 	done
 
 _OaksLabOak1WhichPokemonDoYouWantText::
-	text "OAK: Now, <PLAYER>,"
-	line "which #MON do"
-	cont "you want?"
+	text "OAK: <PLAYER>,"
+	line "Hangi #MON'u"
+	cont "istiyorsun?"
 	done
 
 _OaksLabOak1YourPokemonCanFightText::
-	text "OAK: If a wild"
-	line "#MON appears,"
-	cont "your #MON can"
-	cont "fight against it!"
+	text "OAK: Eğer yabani"
+	line "bir #MON ile"
+	cont "karşılaşırsan,"
+	cont "artık onunla"
+	cont "savaşabilirsin!"
 	done
 
 _OaksLabOak1RaiseYourYoungPokemonText::
 	text "OAK: <PLAYER>,"
-	line "raise your young"
-	cont "#MON by making"
-	cont "it fight!"
+	line "#MON'unu"
+	cont "savaşarak"
+	cont "eğit!"
 	done
 
 _OaksLabOak1DeliverParcelText::
-	text "OAK: Oh, <PLAYER>!"
+	text "OAK: Selam,"
+	line "<PLAYER>!"
 
-	para "How is my old"
-	line "#MON?"
+	para "Sana verdiğim"
+	line "#MON nasıl?"
 
-	para "Well, it seems to"
-	line "like you a lot."
+	para "Sana ısınmış"
+	line "gibi görünüyor."
 
-	para "You must be"
-	line "talented as a"
-	cont "#MON trainer!"
+	para "#MON"
+	line "eğitmekte doğal"
+	cont "yeteneğin var!"
 
-	para "What? You have"
-	line "something for me?"
+	para "Efendim? Bana"
+	line "ne getirdin?"
 
-	para "<PLAYER> delivered"
-	line "OAK's PARCEL.@"
+	para "<PLAYER> paketi"
+	line "teslim etti.@"
 	text_end
 
 _OaksLabOak1ParcelThanksText::
 	text_start
-	para "Ah! This is the"
-	line "custom # BALL"
-	cont "I ordered!"
-	cont "Thank you!"
+	para "Doğru! Bu sipariş"
+	line "ettiğim # TOP'u"
+	cont "olmalı!"
+	cont "Teşekkür ederim!"
 	done
 
 _OaksLabOak1PokemonAroundTheWorldText::
-	text "#MON around the"
-	line "world wait for"
-	cont "you, <PLAYER>!"
+	text "#MON dünyasu"
+	line "seni bekliyor,"
+	cont "<PLAYER>!"
 	done
 
 _OaksLabOak1ReceivedPokeballsText::
-	text "OAK: You can't get"
-	line "detailed data on"
-	cont "#MON by just"
-	cont "seeing them."
+	text "OAK: Detaylı"
+	line "bilgiyi sadece"
+	cont "#MON'u görerek"
+	cont "elde edemezsiniz."
 
-	para "You must catch"
-	line "them! Use these"
-	cont "to capture wild"
-	cont "#MON."
+	para "Daha fazla"
+	line "bilgi için"
+	cont "#MON'ları"
+	cont "yakalamalısınız!"
 
-	para "<PLAYER> got 5"
-	line "# BALLs!@"
+	para "<PLAYER> 5 tane"
+	line "# TOPU aldı!@"
 	text_end
 
 _OaksLabGivePokeballsExplanationText::
 	text_start
-	para "When a wild"
-	line "#MON appears,"
-	cont "it's fair game."
+	para "Yabani #MON"
+	line "görürseniz,"
+	cont "aklınızı kullanın."
 
-	para "Just throw a #"
-	line "BALL at it and try"
-	line "to catch it!"
+	para "Bir # TOPU"
+	line "fırlatmayı"
+	line "deneyin!"
 
-	para "This won't always"
-	line "work, though."
+	para "Bu her zaman işe"
+	line "yaramayabilir."
 
-	para "A healthy #MON"
-	line "could escape. You"
-	cont "have to be lucky!"
+	para "Sağlıklı #MON"
+	line "yakalamak"
+	cont "daha zordur!"
 	done
 
 _OaksLabOak1ComeSeeMeSometimesText::
-	text "OAK: Come see me"
-	line "sometimes."
+	text "OAK: Arada beni"
+	line "ziyaret edin."
 
-	para "I want to know how"
-	line "your #DEX is"
-	cont "coming along."
+	para "#DEX"
+	line "sayfalarınızı"
+	cont "görmek istiyorum."
 	done
 
 _OaksLabOak1HowIsYourPokedexComingText::
@@ -165,9 +168,9 @@ _OaksLabOak1HowIsYourPokedexComingText::
 	prompt
 
 _OaksLabPokedexText::
-	text "It's encyclopedia-"
-	line "like, but the"
-	cont "pages are blank!"
+	text "Ansiklopedi gibi,"
+	line "ama sayfaları"
+	cont "henüz boş!"
 	done
 
 _OaksLabOak2Text::
@@ -175,134 +178,138 @@ _OaksLabOak2Text::
 	done
 
 _OaksLabGirlText::
-	text "PROF.OAK is the"
-	line "authority on"
-	cont "#MON!"
+	text "PROF.OAK #MON"
+	line "hakkında yetkin"
+	cont "bir kişidir!"
 
-	para "Many #MON"
-	line "trainers hold him"
-	cont "in high regard!"
+	para "Çoğu eğitmen"
+	line "ona çok saygı"
+	cont "duyar!"
 	done
 
 _OaksLabRivalFedUpWithWaitingText::
-	text "<RIVAL>: Gramps!"
-	line "I'm fed up with"
-	cont "waiting!"
+	text "<RIVAL>: Dede!"
+	line "Kaç saatir seni"
+	cont "bekliyorum!"
 	done
 
 _OaksLabOakChooseMonText::
 	text "OAK: <RIVAL>?"
-	line "Let me think..."
+	line "Bir düşüneyim..."
 
-	para "Oh, that's right,"
-	line "I told you to"
-	cont "come! Just wait!"
+	para "Doğru, gelmeni"
+	line "rica etmiştim!"
+	cont "Bir saniye!"
 
-	para "Here, <PLAYER>!"
+	para "İşte, <PLAYER>!"
 
-	para "There are 3"
-	line "#MON here!"
+	para "Burda 3 tane"
+	line "#MON var!"
 
 	para "Haha!"
 
-	para "They are inside"
-	line "the # BALLs."
+	para "# TOPlarının"
+	line "içindeler."
 
-	para "When I was young,"
-	line "I was a serious"
-	cont "#MON trainer!"
+	para "Gençliğimde iyi"
+	line "bir #MON"
+	cont "eğitmeniydim!"
 
-	para "In my old age, I"
-	line "have only 3 left,"
-	cont "but you can have"
-	cont "one! Choose!"
+	para "Şimdi elimde"
+	line "sadece 3 tane"
+	cont "kaldı, ama"
+	cont "istersen birini"
+	cont "seçebilirsin!"
 	done
 
 _OaksLabRivalWhatAboutMeText::
 	text "<RIVAL>: Hey!"
-	line "Gramps! What"
-	cont "about me?"
+	line "Peki ya"
+	cont "ben?"
 	done
 
 _OaksLabOakBePatientText::
-	text "OAK: Be patient!"
-	line "<RIVAL>, you can"
-	cont "have one too!"
+	text "OAK: Bekle biraz,"
+	line "<RIVAL>, birini"
+	cont "sana ayırdım!"
 	done
 
 _OaksLabOakDontGoAwayYetText::
-	text "OAK: Hey! Don't go"
-	line "away yet!"
+	text "OAK: Hey! Birini"
+	line "seçip öyle git!"
 	done
 
 _OaksLabRivalIllTakeThisOneText::
-	text "<RIVAL>: I'll take"
-	line "this one, then!"
+	text "<RIVAL>: Ben de"
+	line "bunu alayım bari!"
 	done
 
 _OaksLabRivalReceivedMonText::
-	text "<RIVAL> received"
-	line "a @"
+	text "<RIVAL> artık"
+	line "@"
 	text_ram wcd6d
-	text "!@"
+	text ""
+	cont "sahibi!@"
 	text_end
 
 _OaksLabRivalIllTakeYouOnText::
-	text "<RIVAL>: Wait"
-	line "<PLAYER>!"
-	cont "Let's check out"
-	cont "our #MON!"
+	text "<RIVAL>: <PLAYER>,"
+	line "bekle!"
+	cont "Hadi şu"
+	cont "#MON'ları bir"
+	cont "deneyelim!"
 
-	para "Come on, I'll take"
-	line "you on!"
+	para "Hadi, karşında"
+	line "ben varım!"
 	done
 
 _OaksLabRivalIPickedTheWrongPokemonText::
-	text "WHAT?"
-	line "Unbelievable!"
-	cont "I picked the"
-	cont "wrong #MON!"
+	text "NE?"
+	line "Yok artık!"
+	cont "Yanlış #MON'u"
+	cont "seçmişim!"
 	prompt
 
 _OaksLabRivalAmIGreatOrWhatText::
-	text "<RIVAL>: Yeah! Am"
-	line "I great or what?"
+	text "<RIVAL>: İşte bu!"
+	line "İyi miyim neyim?"
 	prompt
 
 _OaksLabRivalSmellYouLaterText::
-	text "<RIVAL>: Okay!"
-	line "I'll make my"
-	cont "#MON fight to"
-	cont "toughen it up!"
+	text "<RIVAL>: Tamam!"
+	line "#MON'umla"
+	cont "savaşıp onu"
+	cont "eğiteceğim!"
 
-	para "<PLAYER>! Gramps!"
-	line "Smell you later!"
+	para "<PLAYER>! Dede!"
+	line "Görüşmek üzere!"
 	done
 
 _OaksLabRivalGrampsText::
-	text "<RIVAL>: Gramps!"
+	text "<RIVAL>: Dede!"
 	done
 
 _OaksLabRivalWhatDidYouCallMeForText::
-	text "<RIVAL>: What did"
-	line "you call me for?"
+	text "<RIVAL>: Beni"
+	line "niye çağırdın?"
 	done
 
 _OaksLabOakIHaveARequestText::
-	text "OAK: Oh right! I"
-	line "have a request"
-	cont "of you two."
+	text "OAK: Doğru ya!"
+	line "İkinizden bir"
+	cont "ricâm olacak."
 	done
 
 _OaksLabOakMyInventionPokedexText::
-	text "On the desk there"
-	line "is my invention,"
+	text "Masada gördüğünüz"
+	line "şey benim icâdım,"
 	cont "#DEX!"
 
-	para "It automatically"
-	line "records data on"
-	cont "#MON you've"
-	cont "seen or caught!"
+	para "Gördüğünüz ve"
+	line "yakaladığınız"
+	cont "#MON'ların"
+	cont "bilgisini"
+	cont "kaydeder!"
 
 	para "It's a hi-tech"
 	line "encyclopedia!"

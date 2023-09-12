@@ -1,56 +1,55 @@
 _PalletTownOakHeyWaitDontGoOutText::
-	text "OAK: Hey! Wait!"
-	line "Don't go out!@"
+	text "OAK: Bekle!"
+	line "Orası güvensiz!@"
 	text_end
 
 _PalletTownOakItsUnsafeText::
-	text "OAK: It's unsafe!"
-	line "Wild #MON live"
-	cont "in tall grass!"
+	text "OAK: Yabani"
+	line "#MON uzun"
+	cont "çimde yaşar!"
 
-	para "You need your own"
-	line "#MON for your"
-	cont "protection."
-	cont "I know!"
+	para "Güvenliğin için"
+	line "bir #MON'a"
+	cont "ihtiyacın var."
 
-	para "Here, come with"
-	line "me!"
+	para "Hadi, beni"
+	line "takip et!"
 	done
 
 _PalletTownGirlText::
-	text "I'm raising"
-	line "#MON too!"
+	text "Ben de #MON"
+	line "yetiştiriyorum!"
 
-	para "When they get"
-	line "strong, they can"
-	cont "protect me!"
+	para "Bu sayede"
+	line "büyüyünce beni"
+	cont "koruyabilirler!"
 	done
 
 _PalletTownFisherText::
-	text "Technology is"
-	line "incredible!"
+	text "Teknoloji çok"
+	line "gelişmiş."
 
-	para "You can now store"
-	line "and recall items"
-	cont "and #MON as"
-	cont "data via PC!"
+	para "PC'ler ile sanal"
+	line "ortamda #MON"
+	cont "veya eşya"
+	cont "depolanabiliyor!"
 	done
 
 _PalletTownOaksLabSignText::
 	text "OAK #MON"
-	line "RESEARCH LAB"
+	line "LABORATUVARI"
 	done
 
 _PalletTownSignText::
-	text "PALLET TOWN"
-	line "Shades of your"
-	cont "journey await!"
+	text "PALET KASABASI"
+	line "Macera seni"
+	cont "bekliyor!"
 	done
 
 _PalletTownPlayersHouseSignText::
-	text "<PLAYER>'s house "
+	text "<PLAYER> evi "
 	done
 
 _PalletTownRivalsHouseSignText::
-	text "<RIVAL>'s house "
+	text "<RIVAL> evi "
 	done
