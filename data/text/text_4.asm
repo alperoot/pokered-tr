@@ -10,8 +10,8 @@ _PokemonFaintedText::
 	done
 
 _PlayerBlackedOutText::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> <PKMN>'suz"
+	line "kaldı!"
 
 	para "<PLAYER> kendinden"
 	line "geçti!"

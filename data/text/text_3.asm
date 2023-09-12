@@ -194,131 +194,134 @@ _MoveWasDisabledText::
 	prompt
 
 _NothingHappenedText::
-	text "Nothing happened!"
+	text "Hiç bir şey"
+	line "olmadı!"
 	prompt
 
 _NoEffectText::
-	text "No effect!"
+	text "Etkisi olmadı!"
 	prompt
 
 _ButItFailedText::
-	text "But, it failed! "
+	text "Kaçırdı! "
 	prompt
 
 _DidntAffectText::
-	text "It didn't affect"
-	line "<TARGET>!"
+	text "<TARGET>"
+	line "etkilenmedi!"
 	prompt
 
 _IsUnaffectedText::
 	text "<TARGET>"
-	line "is unaffected!"
+	line "etkilenmedi!"
 	prompt
 
 _ParalyzedMayNotAttackText::
-	text "<TARGET>'s"
-	line "paralyzed! It may"
-	cont "not attack!"
+	text "<TARGET>"
+	line "felçli! Belki"
+	cont "saldıramayabilir!"
 	prompt
 
 _SubstituteText::
-	text "It created a"
-	line "SUBSTITUTE!"
+	text "Bir KUKLA"
+	line "oluşturdu!"
 	prompt
 
 _HasSubstituteText::
 	text "<USER>"
-	line "has a SUBSTITUTE!"
+	line "KUKLA arkasında!"
 	prompt
 
 _TooWeakSubstituteText::
-	text "Too weak to make"
-	line "a SUBSTITUTE!"
+	text "KUKLA yapmak"
+	line "için çok zayıf!"
 	prompt
 
 _CoinsScatteredText::
-	text "Coins scattered"
-	line "everywhere!"
+	text "Etrafa para"
+	line "saçıldı!"
 	prompt
 
 _GettingPumpedText::
-	text "<USER>'s"
-	line "getting pumped!"
+	text "<USER>"
+	line "hazırlanıyor!"
 	prompt
 
 _WasSeededText::
 	text "<TARGET>"
-	line "was seeded!"
+	line "tohumlandı!"
 	prompt
 
 _EvadedAttackText::
 	text "<TARGET>"
-	line "evaded attack!"
+	line "saldırıyı atlattı!"
 	prompt
 
 _HitWithRecoilText::
-	text "<USER>'s"
-	line "hit with recoil!"
+	text "<USER> geri"
+	line "tepme hasarı aldı!"
 	prompt
 
 _ConvertedTypeText::
-	text "Converted type to"
-	line "<TARGET>'s!"
+	text "<TARGET>"
+	line "türüne büründü!"
 	prompt
 
 _StatusChangesEliminatedText::
-	text "All STATUS changes"
-	line "are eliminated!"
+	text "DURUM değişimleri"
+	line "sıfırlandı!"
 	prompt
 
 _StartedSleepingEffect::
 	text "<USER>"
-	line "started sleeping!"
+	line "uykuya daldı!"
 	done
 
 _FellAsleepBecameHealthyText::
 	text "<USER>"
-	line "fell asleep and"
-	cont "became healthy!"
+	line "uyurken sağlığına"
+	cont "kavuştu!"
 	done
 
 _RegainedHealthText::
 	text "<USER>"
-	line "regained health!"
+	line "can tazeledi!"
 	prompt
 
 _TransformedText::
 	text "<USER>"
-	line "transformed into"
+	line "şuna dönüştü:"
 	cont "@"
 	text_ram wcd6d
 	text "!"
 	prompt
 
 _LightScreenProtectedText::
-	text "<USER>'s"
-	line "protected against"
-	cont "special attacks!"
+	text "<USER>"
+	line "özel saldırılara"
+	cont "karşı korumalı!"
 	prompt
 
 _ReflectGainedArmorText::
 	text "<USER>"
-	line "gained armor!"
+	line "zırhlandı!"
 	prompt
 
 _ShroudedInMistText::
-	text "<USER>'s"
-	line "shrouded in mist!"
+	text "<USER>"
+	line "sis ile çevrili!"
 	prompt
 
 _SuckedHealthText::
-	text "Sucked health from"
-	line "<TARGET>!"
+	text "<TARGET>"
+	line "rakibinden can"
+	cont "çekildi!"
 	prompt
 
 _DreamWasEatenText::
-	text "<TARGET>'s"
-	line "dream was eaten!"
+	text "<TARGET>"
+	line "uyurken rüyaları"
+	cont "çalındı!"
 	prompt
 
 _TradeCenterOpponentText::

@@ -458,8 +458,8 @@ CalcExpToLevelUp:
 	ret
 
 StatusScreenExpText:
-	db   "EXP POINTS"
-	next "LEVEL UP@"
+	db   "TCB PUANI"
+	next "ÜST SEVİYE@"
 
 StatusScreen_ClearName:
 	ld bc, 10

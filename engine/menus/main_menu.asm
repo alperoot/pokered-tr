@@ -349,7 +349,7 @@ NewGameText:
 CableClubOptionsText:
 	db   "TRADE CENTER"
 	next "COLOSSEUM"
-	next "CANCEL@"
+	next "İPTAL@"
 
 DisplayContinueGameInfo:
 	xor a
@@ -432,10 +432,10 @@ PrintPlayTime:
 	jp PrintNumber
 
 SaveScreenInfoText:
-	db   "PLAYER"
-	next "BADGES    "
+	db   "OYUNCU"
+	next "ROZETLER "
 	next "#DEX    "
-	next "TIME@"
+	next "ZAMAN@"
 
 DisplayOptionMenu:
 	hlcoord 0, 0
@@ -573,15 +573,15 @@ DisplayOptionMenu:
 	sub 6
 	jr .updateTextSpeedXCoord
 .fromSlowToMedium
-	sub 7
+	sub 6
 	jr .updateTextSpeedXCoord
 .pressedRightInTextSpeed
 	ld a, [wOptionsTextSpeedCursorX] ; text speed cursor X coordinate
 	cp 14
 	jr z, .updateTextSpeedXCoord
-	cp 7
+	cp 6
 	jr nz, .fromFastToMedium
-	add 7
+	add 6
 	jr .updateTextSpeedXCoord
 .fromFastToMedium
 	add 6
@@ -590,19 +590,19 @@ DisplayOptionMenu:
 	jp .eraseOldMenuCursor
 
 TextSpeedOptionText:
-	db   "TEXT SPEED"
-	next " FAST  MEDIUM SLOW@"
+	db   "YAZI HIZI"
+	next " HIZLI ORTA  YAVAŞ@"
 
 BattleAnimationOptionText:
-	db   "BATTLE ANIMATION"
-	next " ON       OFF@"
+	db   "SAVAŞ ANİMASYONU"
+	next " AÇIK     KAPALI@"
 
 BattleStyleOptionText:
-	db   "BATTLE STYLE"
-	next " SHIFT    SET@"
+	db   "<PKMN> DEĞİŞİMİ"
+	next " SOR      SORMA@"
 
 OptionMenuCancelText:
-	db "CANCEL@"
+	db "İPTAL@"
 
 ; sets the options variable according to the current placement of the menu cursors in the options menu
 SetOptionsFromCursorPositions:

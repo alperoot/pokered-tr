@@ -1237,38 +1237,38 @@ _WildMonAppearedText::
 	text "Yabani @"
 	text_ram wEnemyMonNick
 	text_start
-	line "appeared!"
+	line "karşına çıktı!"
 	prompt
 
 _HookedMonAttackedText::
-	text "The hooked"
+	text "Oltadaki"
 	line "@"
 	text_ram wEnemyMonNick
 	text_start
-	cont "attacked!"
+	cont "saldırdı!"
 	prompt
 
 _EnemyAppearedText::
 	text_ram wEnemyMonNick
 	text_start
-	line "appeared!"
+	line "karşına çıktı!"
 	prompt
 
 _TrainerWantsToFightText::
 	text_ram wTrainerName
-	text " wants"
-	line "to fight!"
+	text " savaşmak"
+	line "istiyor!"
 	prompt
 
 _UnveiledGhostText::
-	text "SILPH SCOPE"
-	line "unveiled the"
-	cont "GHOST's identity!"
+	text "SILPH AYGITI"
+	line "HAYALET'in gerçek"
+	cont "yüzünü gösterdi!"
 	prompt
 
 _GhostCantBeIDdText::
-	text "Darn! The GHOST"
-	line "can't be ID'd!"
+	text "HAYALET'in NO'su"
+	line "anlaşılmıyor!"
 	prompt
 
 _GoText::
@@ -1446,101 +1446,102 @@ _TurnedOnPC1Text::
 	prompt
 
 _AccessedBillsPCText::
-	text "Accessed BILL's"
-	line "PC."
+	text "BILL'in PC'si"
+	line "açıldı."
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "#MON Depolama"
+	line "Sistemi açıldı."
 	prompt
 
 _AccessedSomeonesPCText::
-	text "Accessed someone's"
-	line "PC."
+	text "Birinin PC'si"
+	line "açıldı."
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "#MON Depolama"
+	line "Sistemi açıldı."
 	prompt
 
 _AccessedMyPCText::
-	text "Accessed my PC."
+	text "Bilgisayarım"
+	line "açıldı."
 
-	para "Accessed Item"
-	line "Storage System."
+	para "Eşya Depolama"
+	line "Sistemi açıldı."
 	prompt
 
 _TurnedOnPC2Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> PC'yi"
+	line "açtı."
 	prompt
 
 _WhatDoYouWantText::
-	text "What do you want"
-	line "to do?"
+	text "Ne yapmak"
+	line "istiyorsun?"
 	done
 
 _WhatToDepositText::
-	text "What do you want"
-	line "to deposit?"
+	text "Hangisi"
+	line "depolansın?"
 	done
 
 _DepositHowManyText::
-	text "How many?"
+	text "Kaç tane?"
 	done
 
 _ItemWasStoredText::
 	text_ram wcd6d
-	text " was"
-	line "stored via PC."
+	text " bilgisayara"
+	line "deoplandı."
 	prompt
 
 _NothingToDepositText::
-	text "You have nothing"
-	line "to deposit."
+	text "Depolanacak"
+	line "eşya yok."
 	prompt
 
 _NoRoomToStoreText::
-	text "No room left to"
-	line "store items."
+	text "Depoda boş"
+	line "yer yok."
 	prompt
 
 _WhatToWithdrawText::
-	text "What do you want"
-	line "to withdraw?"
+	text "Hangisi"
+	line "alınsın?"
 	done
 
 _WithdrawHowManyText::
-	text "How many?"
+	text "Kaç tane?"
 	done
 
 _WithdrewItemText::
-	text "Withdrew"
+	text "Şu alındı:"
 	line "@"
 	text_ram wcd6d
 	text "."
 	prompt
 
 _NothingStoredText::
-	text "There is nothing"
-	line "stored."
+	text "Depolanmış eşya"
+	line "yok."
 	prompt
 
 _CantCarryMoreText::
-	text "You can't carry"
-	line "any more items."
+	text "Çantada yer"
+	line "yok."
 	prompt
 
 _WhatToTossText::
-	text "What do you want"
-	line "to toss away?"
+	text "Hangi eşya"
+	line "çöpe atılsın?"
 	done
 
 _TossHowManyText::
-	text "How many?"
+	text "Kaç tane?"
 	done
 
 _AccessedHoFPCText::
-	text "Accessed #MON"
-	line "LEAGUE's site."
+	text "#MON LİG web"
+	line "sitesi açıldı."
 
 	para "Accessed the HALL"
 	line "OF FAME List."

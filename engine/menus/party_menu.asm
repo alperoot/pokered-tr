@@ -157,7 +157,7 @@ RedrawPartyMenu_::
 ; if it does match
 	ld de, .ableToEvolveText
 .placeEvolutionStoneString
-	ld bc, 20 + 9 ; down 1 row and right 9 columns
+	ld bc, 20 + 6 ; down 1 row and right 9 columns
 	pop hl
 	push hl
 	add hl, bc
@@ -165,9 +165,9 @@ RedrawPartyMenu_::
 	pop hl
 	jr .printLevel
 .ableToEvolveText
-	db "ABLE@"
+	db "UYGUN@"
 .notAbleToEvolveText
-	db "NOT ABLE@"
+	db "UYGUN DEĞİL@"
 .afterDrawingMonEntries
 	ld b, SET_PAL_PARTY_MENU
 	call RunPaletteCommand

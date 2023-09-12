@@ -206,6 +206,8 @@
 	charmap "/",         $f3
 	charmap ",",         $f4
 	charmap "♀",         $f5
+	
+	charmap "+",         $df
 
 	charmap "0",         $f6
 	charmap "1",         $f7

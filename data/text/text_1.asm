@@ -61,7 +61,7 @@ _FoundItemText::
 	text "<PLAYER>"
 	line "@"
 	text_ram wStringBuffer
-	text "buldu!@"
+	text " buldu!@"
 	text_end
 
 _NoMoreRoomForItemText::

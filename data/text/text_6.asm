@@ -1,59 +1,59 @@
 _ItemUseBallText00::
-	text "It dodged the"
-	line "thrown BALL!"
+	text "POKé TOPU'nu"
+	line "atlattı!"
 
-	para "This #MON"
-	line "can't be caught!"
+	para "Bu #MON"
+	line "yakalanamıyor!"
 	prompt
 
 _ItemUseBallText01::
-	text "You missed the"
-	line "#MON!"
+	text "#MON'u"
+	line "kaçırdın!"
 	prompt
 
 _ItemUseBallText02::
-	text "Darn! The #MON"
-	line "broke free!"
+	text "Ah! #MON"
+	line "kurtuldu!"
 	prompt
 
 _ItemUseBallText03::
-	text "Aww! It appeared"
-	line "to be caught! "
+	text "Hay aksi! Son"
+	line "anda kaçtı! "
 	prompt
 
 _ItemUseBallText04::
-	text "Shoot! It was so"
-	line "close too!"
+	text "Tüh! Neredeyse"
+	line "oluyordu!"
 	prompt
 
 _ItemUseBallText05::
-	text "All right!"
+	text "Tamamdır!"
 	line "@"
 	text_ram wEnemyMonNick
-	text " was"
-	cont "caught!@"
+	text " "
+	cont "yakalandı!@"
 	text_end
 
 _ItemUseBallText07::
 	text_ram wBoxMonNicks
-	text " was"
-	line "transferred to"
-	cont "BILL's PC!"
+	text " "
+	line "BILL'in PC'sine"
+	cont "aktarıldı!"
 	prompt
 
 _ItemUseBallText08::
 	text_ram wBoxMonNicks
-	text " was"
-	line "transferred to"
-	cont "someone's PC!"
+	text " "
+	line "birinin PC'sine"
+	cont "aktarıldı!"
 	prompt
-
+	
 _ItemUseBallText06::
-	text "New #DEX data"
-	line "will be added for"
-	cont "@"
+	text "@"
 	text_ram wEnemyMonNick
-	text "!@"
+	text " için"
+	line "yeni #DEX"
+	cont "sayfası açılıyor@"
 	text_end
 
 _SurfingGotOnText::
