@@ -3748,6 +3748,7 @@ MonName1Text:
 Used1Text:
 	text_far _Used1Text
 	text_asm
+	
 	jr PrintInsteadText
 
 Used2Text:
@@ -3838,7 +3839,7 @@ DetermineExclamationPointTextNum:
 	inc b
 	jr .loop
 .done
-	ld a, b
+	ld a, 1
 	ld [wd11e], a ; exclamation point num
 	pop bc
 	ret

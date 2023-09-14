@@ -290,8 +290,8 @@ _NewBicycleText::
 	done
 
 _PushStartText::
-	text "Push START to"
-	line "open the MENU!"
+	text "MENÜ için"
+	line "START'a bas!"
 	done
 
 _SaveOptionText::
@@ -575,10 +575,10 @@ _IndigoPlateauHQText::
 	done
 
 _RedBedroomSNESText::
-	text "<PLAYER> is"
-	line "playing the SNES!"
-	cont "...Okay!"
-	cont "It's time to go!"
+	text "<PLAYER> SNES"
+	line "oynuyor!"
+	cont "...Tamam!"
+	cont "Gitme vakti!"
 	done
 
 _Route15UpstairsBinocularsText::
@@ -843,13 +843,13 @@ _EnemyRanText::
 	prompt
 
 _HurtByPoisonText::
-	text "<USER>'s"
-	line "hurt by poison!"
+	text "<USER>"
+	line "hala zehirli!"
 	prompt
 
 _HurtByBurnText::
-	text "<USER>'s"
-	line "hurt by the burn!"
+	text "<USER>"
+	line "hala yanıyor!"
 	prompt
 
 _HurtByLeechSeedText::
@@ -872,16 +872,16 @@ _MoneyForWinningText::
 	prompt
 
 _TrainerDefeatedText::
-	text "<PLAYER> defeated"
-	line "@"
+	text "@"
 	text_ram wTrainerName
-	text "!"
+	text ""
+	line "malup edildi!"
 	prompt
 
 _PlayerMonFaintedText::
 	text_ram wBattleMonNick
 	text_start
-	line "fainted!"
+	line "kendinden geçti!"
 	prompt
 
 _UseNextMonText::
@@ -894,11 +894,11 @@ _Rival1WinText::
 	prompt
 
 _PlayerBlackedOutText2::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> <PKMN>'sız"
+	line "kaldı!"
 
-	para "<PLAYER> blacked"
-	line "out!"
+	para "<PLAYER> kendinden"
+	line "geçti!"
 	prompt
 
 _LinkBattleLostText::
@@ -910,11 +910,11 @@ _LinkBattleLostText::
 
 _TrainerAboutToUseText::
 	text_ram wTrainerName
-	text " is"
-	line "about to use"
-	cont "@"
+	text "@"
+	; cont "@"
 	text_ram wEnemyMonNick
-	text "!"
+	text ""
+	cont "kullanmak üzere"
 
 	para "<PLAYER> #MON"
 	line "değiştirecek mi?"
@@ -922,15 +922,16 @@ _TrainerAboutToUseText::
 
 _TrainerSentOutText::
 	text_ram wTrainerName
-	text " sent"
-	line "out @"
+	text ""
+	line "@"
 	text_ram wEnemyMonNick
-	text "!"
+	text ""
+	cont "gönderdi!"
 	done
 
 _NoWillText::
-	text "There's no will"
-	line "to fight!"
+	text "Savaşacak"
+	line "hali kalmamış!"
 	prompt
 
 _CantEscapeText::
@@ -1081,12 +1082,12 @@ _MonName1Text::
 
 _Used1Text::
 	text_start
-	line "used @"
+	line "@"
 	text_end
 
 _Used2Text::
 	text_start
-	line "used @"
+	line "@"
 	text_end
 
 _InsteadText::
@@ -1099,23 +1100,28 @@ _MoveNameText::
 	text "@"
 
 _ExclamationPoint1Text::
-	text "!"
+	text ""
+	; cont "kullandı!"
 	done
 
 _ExclamationPoint2Text::
-	text "!"
+	text ""
+	cont "kullandı!"
 	done
 
 _ExclamationPoint3Text::
-	text "!"
+	text ""
+	; cont "kullandı!"
 	done
 
 _ExclamationPoint4Text::
-	text "!"
+	text ""
+	; cont "kullandı!"
 	done
 
 _ExclamationPoint5Text::
-	text "!"
+	text ""
+	; cont "kullandı!"
 	done
 
 _AttackMissedText::
@@ -1194,43 +1200,44 @@ _BuildingRageText::
 	prompt
 
 _MirrorMoveFailedText::
-	text "The MIRROR MOVE"
-	next "failed!"
+	text "GERİ YOLLA"
+	next "işe yaramadı!"
 	prompt
 
 _HitXTimesText::
-	text "Hit @"
+	text "@"
 	text_decimal wEnemyNumHits, 1, 1
-	text " times!"
+	text " kere vurdu!"
 	prompt
 
 _GainedText::
 	text_ram wcd6d
-	text " gained"
+	text ""
 	line "@"
 	text_end
 
 _WithExpAllText::
-	text "with EXP.ALL,"
+	text "TCB. BÖL ile,"
 	cont "@"
 	text_end
 
 _BoostedText::
-	text "a boosted"
+	text "fazladan"
 	cont "@"
 	text_end
 
 _ExpPointsText::
 	text_decimal wExpAmountGained, 2, 4
-	text " EXP. Points!"
+	text " TCB. puanı"
+	cont "kazandı!"
 	prompt
 
 _GrewLevelText::
 	text_ram wcd6d
-	text " grew"
-	line "to level @"
+	text " artık"
+	line "@"
 	text_decimal wCurEnemyLVL, 1, 3
-	text "!@"
+	text ". seviye!@"
 	text_end
 
 _WildMonAppearedText::
@@ -1256,8 +1263,8 @@ _EnemyAppearedText::
 
 _TrainerWantsToFightText::
 	text_ram wTrainerName
-	text " savaşmak"
-	line "istiyor!"
+	text ""
+	line "savaşmak istiyor!"
 	prompt
 
 _UnveiledGhostText::
@@ -1267,7 +1274,7 @@ _UnveiledGhostText::
 	prompt
 
 _GhostCantBeIDdText::
-	text "HAYALET'in NO'su"
+	text "HAYALET'in türü"
 	line "anlaşılmıyor!"
 	prompt
 

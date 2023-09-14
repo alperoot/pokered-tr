@@ -74,7 +74,7 @@ ItemNames::
 	li "SILPH AYGITI"
 	li "POKé FLÜT"
 	li "ASANSÖR KARTI"
-	li "TCB. CİHAZI"
+	li "TCB. BÖL"
 	li "ESKİ OLTA"
 	li "İYİ OLTA"
 	li "SÜPER OLTA"
