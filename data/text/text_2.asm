@@ -9,13 +9,26 @@ _AIBattleWithdrawText::
 _AIBattleUseItemText::
 	text_ram wTrainerName
 	text_start
-	line "used @"
-	text_ram wcd6d
-	text_start
-	cont "on @"
+	line "@"
 	text_ram wEnemyMonNick
-	text "!"
+	text_start
+	cont "üzerinde"
+	cont "@"
+	text_ram wcd6d
+	text ""
+	cont "kullandı!"
 	prompt
+
+; _AIBattleUseItemText::
+	; text_ram wTrainerName
+	; text_start
+	; line "used @"
+	; text_ram wcd6d
+	; text_start
+	; cont "on @"
+	; text_ram wEnemyMonNick
+	; text "!"
+	; prompt
 
 _TradeWentToText::
 	text_ram wStringBuffer

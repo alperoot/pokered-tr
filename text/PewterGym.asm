@@ -1,18 +1,19 @@
 _PewterGymBrockPreBattleText::
-	text "I'm BROCK!"
-	line "I'm PEWTER's GYM"
-	cont "LEADER!"
+	text "Selam, ben BROCK!"
+	line "PEWTER salonunun"
+	cont "LİDERİyim!"
 
-	para "I believe in rock"
-	line "hard defense and"
-	cont "determination!"
+	para "Savunmalarım ve"
+	line "azmim kaya gibi"
+	cont "dayanıklıdır!"
 
-	para "That's why my"
-	line "#MON are all"
-	cont "the rock-type!"
+	para "Bu yüzden sadece"
+	line "kaya tipi #MON"
+	cont "kullanırım!"
 
-	para "Do you still want"
-	line "to challenge me?"
-	cont "Fine then! Show"
-	cont "me your best!"
+	para "Hala savaşmak mı"
+	line "istiyorsun?"
+	cont "Peki öyleyse!"
+	cont "Elinden geleni"
+	cont "ardına koyma!"
 	done

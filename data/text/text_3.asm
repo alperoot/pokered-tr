@@ -94,19 +94,19 @@ _FireDefrostedText::
 	prompt
 
 _MonsStatsRoseText::
-	text "<USER> artık"
-	line "artık daha"
+	text "<USER>"
+	line "daha"
 	cont "@"
 	text_ram wStringBuffer
 	text "@"
 	text_end
 
 _GreatlyRoseText::
-	text "<SCROLL>greatly@"
+	text "<SCROLL>çok@"
 	text_end
 
 _RoseText::
-	text " rose!"
+	text "!"
 	prompt
 
 _MonsStatsFellText::
