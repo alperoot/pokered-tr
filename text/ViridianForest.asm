@@ -1,123 +1,125 @@
 _ViridianForestYoungster1Text::
-	text "I came here with"
-	line "some friends!"
+	text "Arkadaşlarım"
+	line "buralarda bir"
+	cont "yerlerde."
 
-	para "They're out for"
-	line "#MON fights!"
+	para "#MON savaşı"
+	line "için geldiler!"
 	done
 
 _ViridianForestYoungster2BattleText::
-	text "Hey! You have"
-	line "#MON! Come on!"
-	cont "Let's battle'em!"
+	text "Hey! Sende de"
+	line "#MON var! Hadi"
+	cont "kapıştıralım!"
 	done
 
 _ViridianForestYoungster2EndBattleText::
-	text "No!"
-	line "CATERPIE can't"
-	cont "cut it!"
+	text "Olamaz!"
+	line "CATERPIE bunu"
+	cont "halledemedi!"
 	prompt
 
 _ViridianForestYoungster2AfterBattleText::
-	text "Ssh! You'll scare"
-	line "the bugs away!"
+	text "Sessiz! Böcekleri"
+	line "korkutacaksın!"
 	done
 
 _ViridianForestYoungster3BattleText::
-	text "Yo! You can't jam"
-	line "out if you're a"
-	cont "#MON trainer!"
+	text "Hey! #MON"
+	line "eğitmeniysen"
+	cont "savaştan kaçış"
+	cont "yok!"
 	done
 
 _ViridianForestYoungster3EndBattleText::
-	text "Huh?"
-	line "I ran out of"
-	cont "#MON!"
+	text "Ne?"
+	line "#MON'suz"
+	cont "kaldım!"
 	prompt
 
 _ViridianForestYoungster3AfterBattleText::
-	text "Darn! I'm going"
-	line "to catch some"
-	cont "stronger ones!"
+	text "Ah be! Daha"
+	line "güçlülerini"
+	cont "bulmalıyım!"
 	done
 
 _ViridianForestYoungster4BattleText::
-	text "Hey, wait up!"
-	line "What's the hurry?"
+	text "Hey, nereye?"
+	line "Nedir bu acele?"
 	done
 
 _ViridianForestYoungster4EndBattleText::
-	text "I"
-	line "give! You're good"
-	cont "at this!"
+	text "Pes!"
+	line "Tamam, kabul."
+	cont "Gayet iyisin!"
 	prompt
 
 _ViridianForestYoungster4AfterBattleText::
-	text "Sometimes, you"
-	line "can find stuff on"
-	cont "the ground!"
+	text "Bazen yerde"
+	line "eşya olabiliyor!"
 
-	para "I'm looking for"
-	line "the stuff I"
-	cont "dropped!"
+	para "Kaybettiğim"
+	line "eşyaları"
+	cont "arıyorum!"
 	done
 
 _ViridianForestYoungster5Text::
-	text "I ran out of #"
-	line "BALLs to catch"
-	cont "#MON with!"
+	text "#MON yakalamak"
+	line "için #TOP'um"
+	cont "kalmadı!"
 
-	para "You should carry"
-	line "extras!"
+	para "Keşke daha"
+	line "fazla alsaydım!"
 	done
 
 _ViridianForestTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "EĞİTMEN TÜYOLARI"
 
-	para "If you want to"
-	line "avoid battles,"
-	cont "stay away from"
-	cont "grassy areas!"
+	para "Savaştan kaçınmak"
+	line "için uzun çimli"
+	cont "yerlerden uzak"
+	cont "dur!"
 	done
 
 _ViridianForestUseAntidoteSignText::
-	text "For poison, use"
-	line "ANTIDOTE! Get it"
-	cont "at #MON MARTs!"
+	text "Zehir tedavisi"
+	line "için # MART'dan"
+	cont "ZEHİR İLACI al!"
 	done
 
 _ViridianForestTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "EĞİTMEN TÜYOLARI"
 
-	para "Contact PROF.OAK"
-	line "via PC to get"
-	cont "your #DEX"
-	cont "evaluated!"
+	para "PROF.OAK ile"
+	line "PC'den iletişime"
+	cont "geçerek #DEX"
+	cont "puanına bak!"
 	done
 
 _ViridianForestTrainerTips3Text::
-	text "TRAINER TIPS"
+	text "EĞİTMEN TÜYOLARI"
 
-	para "No stealing of"
-	line "#MON from"
-	cont "other trainers!"
-	cont "Catch only wild"
-	cont "#MON!"
+	para "Eğitmenlerden"
+	line "#MON çalmak"
+	cont "yok! Yalnızca"
+	cont "yabani #MON"
+	cont "yakalayabilirsin!"
 	done
 
 _ViridianForestTrainerTips4Text::
-	text "TRAINER TIPS"
+	text "EĞİTMEN TÜYOLARI"
 
-	para "Weaken #MON"
-	line "before attempting"
-	cont "capture!"
+	para "#MON yakalamak"
+	line "için önce onları"
+	cont "zayıflat!"
 
-	para "When healthy,"
-	line "they may escape!"
+	para "Sağlıklıyken"
+	line "kaçabilirler!"
 	done
 
 _ViridianForestLeavingSignText::
-	text "LEAVING"
-	line "VIRIDIAN FOREST"
-	cont "PEWTER CITY AHEAD"
+	text "VIRIDAN ORMANI'NI"
+	line "TERK EDİYORSUNUZ"
+	cont "PEWTER ŞEHRİ"
+	cont "İLERDE"
 	done

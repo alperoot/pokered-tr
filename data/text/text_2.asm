@@ -1572,20 +1572,20 @@ _SwitchOnText::
 	prompt
 
 _WhatText::
-	text "What?"
+	text "Seçim"
 	done
 
 _DepositWhichMonText::
-	text "Deposit which"
-	line "#MON?"
+	text "Hangi #MON"
+	line "depolansın?"
 	done
 
 _MonWasStoredText::
 	text_ram wStringBuffer
-	text " was"
-	line "stored in Box @"
+	text " @"
 	text_ram wBoxNumString
 	text "."
+	line "kutuda depolandı."
 	prompt
 
 _CantDepositLastMonText::
@@ -1706,13 +1706,13 @@ _WhereWouldYouLikeText::
 	done
 
 _PleaseWaitText::
-	text "OK, please wait"
-	line "just a moment."
+	text "Tamam, lütfen"
+	line "biraz bekleyin."
 	done
 
 _LinkCanceledText::
-	text "The link was"
-	line "canceled."
+	text "Bağlantı iptal"
+	line "edildi."
 	done
 
 _OakSpeechText1::
@@ -1795,11 +1795,11 @@ _HisNameIsText::
 
 _WillBeTradedText::
 	text_ram wNameOfPlayerMonToBeTraded
-	text " and"
+	text " ve"
 	line "@"
 	text_ram wcd6d
-	text " will"
-	cont "be traded."
+	text ""
+	cont "takas edilecek."
 	done
 
 _TextIDErrorText::

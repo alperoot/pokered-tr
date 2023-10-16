@@ -1,25 +1,25 @@
 _ViridianCityYoungster1Text::
-	text "Those # BALLs"
-	line "at your waist!"
-	cont "You have #MON!"
+	text "Belinde"
+	line "# TOP'ları var."
+	cont "#MON taşıyorsun!"
 
-	para "It's great that"
-	line "you can carry and"
-	cont "use #MON any"
-	cont "time, anywhere!"
+	para "İstediğin yere"
+	line "#MON taşımak"
+	cont "çok kullanışlı,"
+	cont "değil mi?"
 	done
 
 _ViridianCityGambler1GymAlwaysClosedText::
-	text "This #MON GYM"
-	line "is always closed."
+	text "Bu #MON SALON'u"
+	line "hep kapalı."
 
-	para "I wonder who the"
-	line "LEADER is?"
+	para "LİDER'i kim"
+	line "acaba?"
 	done
 
 _ViridianCityGambler1GymLeaderReturnedText::
-	text "VIRIDIAN GYM's"
-	line "LEADER returned!"
+	text "VIRIDIAN SALONU'nun"
+	line "LİDER'i geri döndü!"
 	done
 
 _ViridianCityYoungster2YouWantToKnowAboutText::
@@ -43,10 +43,11 @@ ViridianCityYoungster2CaterpieAndWeedleDescriptionText::
 	done
 
 _ViridianCityGirlHasntHadHisCoffeeYetText::
-	text "Oh Grandpa! Don't"
-	line "be so mean!"
-	cont "He hasn't had his"
-	cont "coffee yet."
+	text "Dede! Niye  bu"
+	line "kadar kabasın?"
+	cont "Kusura bakmayın,"
+	cont "dedem akşamdan"
+	cont "kalma biraz..."
 	done
 
 _ViridianCityGirlWhenIGoShopText::
@@ -58,124 +59,126 @@ _ViridianCityGirlWhenIGoShopText::
 	done
 
 _ViridianCityOldManSleepyPrivatePropertyText::
-	text "You can't go"
-	line "through here!"
+	text "Hey! Burdan"
+	line "geçiş yok!"
 
-	para "This is private"
-	line "property!"
+	para "Burası benim"
+	line "özel mülküm!"
 	done
 
 ViridianCityFisherYouCanHaveThisText::
-	text "Yawn!"
-	line "I must have dozed"
-	cont "off in the sun."
+	text "İçim geçmiş!"
+	line "Güneşin altında"
+	cont "uyuyakalmışım."
 
-	para "I had this dream"
-	line "about a DROWZEE"
-	cont "eating my dream."
-	cont "What's this?"
-	cont "Where did this TM"
-	cont "come from?"
+	para "Rüyamda DROWZEE'nin"
+	line "biri rüyalarımı"
+	cont "yiyordu."
+	cont "Bu da ne?"
+	cont "Bu TM de nerden"
+	cont "çıktı?"
 
-	para "This is spooky!"
-	line "Here, you can"
-	cont "have this TM."
+	para "Korkutucu!"
+	line "Lütfen bu TM'i"
+	cont "benden al."
 	prompt
 
 _ViridianCityFisherReceivedTM42Text::
-	text "<PLAYER> received"
-	line "TM42!@"
+	text "<PLAYER> TM42"
+	line "edindi!@"
 	text_end
 
 _ViridianCityFisherTM42ExplanationText::
-	text "TM42 contains"
-	line "DREAM EATER..."
-	cont "...Snore..."
+	text "TM42'nin içinde"
+	line "KABUS var..."
+	cont "...Horr..."
 	done
 
 _ViridianCityFisherTM42NoRoomText::
-	text "You have too much"
-	line "stuff already."
+	text "Çantan çok"
+	line "dolu."
 	done
 
 _ViridianCityOldManHadMyCoffeeNowText::
-	text "Ahh, I've had my"
-	line "coffee now and I"
-	cont "feel great!"
+	text "Kahvemi içtim"
+	line "ve kendime"
+	cont "geldim!"
 
-	para "Sure you can go"
-	line "through!"
+	para "Tabii ki de"
+	line "geçebilirsin!"
 
-	para "Are you in a"
-	line "hurry?"
+	para "Acelen var"
+	line "mı?"
 	done
 
 _ViridianCityOldManKnowHowToCatchPokemonText::
-	text "I see you're using"
-	line "a #DEX."
+	text "#DEX'in"
+	line "var galiba."
 
-	para "When you catch a"
-	line "#MON, #DEX"
-	cont "is automatically"
-	cont "updated."
+	para "Her #MON"
+	line "yakaladığında"
+	cont "#DEX otomatik"
+	cont "olarak yeni bir"
+	cont "sayfa açar."
 
-	para "What? Don't you"
-	line "know how to catch"
-	cont "#MON?"
+	para "#MON yakalamayı"
+	line "bilmiyor musun?"
 
-	para "I'll show you"
-	line "how to then."
+	para "Hadi sana"
+	line "öğreteyim."
 	done
 
 _ViridianCityOldManTimeIsMoneyText::
-	text "Time is money..."
-	line "Go along then."
+	text "Vakit nakittir..."
+	line "Görüşmek üzere."
 	done
 
 _ViridianCityOldManYouNeedToWeakenTheTargetText::
-	text "First, you need"
-	line "to weaken the"
-	cont "target #MON."
+	text "Önce karşı"
+	line "#MON'u biraz"
+	cont "güçsüzleştir."
 	done
 
 _ViridianCitySignText::
-	text "VIRIDIAN CITY "
-	line "The Eternally"
-	cont "Green Paradise"
+	text "VIRIDIAN ŞEHRİ "
+	line "Sonzuz Yeşillik"
+	cont "Cenneti"
 	done
 
 _ViridianCityTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "EĞİTMEN TÜYOLARI"
 
-	para "Catch #MON"
-	line "and expand your"
-	cont "collection!"
+	para "#MON yakalayıp"
+	line "koleksiyonunuza"
+	cont "ekleyin!"
 
-	para "The more you have,"
-	line "the easier it is"
-	cont "to fight!"
+	para "Ne kadar çok"
+	line "yakalarsanız"
+	cont "kazanmak o kadar"
+	cont "kolaylaşır!"
 	done
 
 _ViridianCityTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "EĞİTMEN TÜYOLARI"
 
-	para "The battle moves"
-	line "of #MON are"
-	cont "limited by their"
-	cont "POWER POINTs, PP."
+	para "#MON'ların"
+	line "kullanabileceği"
+	cont "hareketler SP,"
+	cont "yani SAVAŞ PUAN'ı"
+	cont "ile kısıtlıdır."
 
-	para "To replenish PP,"
-	line "rest your tired"
-	cont "#MON at a"
-	cont "#MON CENTER!"
+	para "SP'lerini yenilemek"
+	line "için #MON'ları"
+	cont "#MON MERKEZ'inde"
+	cont "dinlendirin!"
 	done
 
 _ViridianCityGymSignText::
-	text "VIRIDIAN CITY"
-	line "#MON GYM"
+	text "VIRIDIAN ŞEHRİ"
+	line "#MON SALONU"
 	done
 
 _ViridianCityGymLockedText::
-	text "The GYM's doors"
-	line "are locked..."
+	text "SALON'un"
+	line "kapıları kitli..."
 	done

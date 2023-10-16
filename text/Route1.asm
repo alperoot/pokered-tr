@@ -1,50 +1,54 @@
 _Route1Youngster1MartSampleText::
-	text "Hi! I work at a"
-	line "#MON MART."
+	text "Merhaba!"
+	line "#MON MARKET'de"
+	cont "kasiyer olarak"
+	cont "çalışıyorum."    
 
-	para "It's a convenient"
-	line "shop, so please"
-	cont "visit us in"
-	cont "VIRIDIAN CITY."
+	para "VIRIDAN ŞEHRİ"
+	line "şubemizi"
+	cont "ziyaret etmekten"
+	cont "çekinmeyin."
 
-	para "I know, I'll give"
-	line "you a sample!"
-	cont "Here you go!"
+	para "Buyrun, size"
+	line "bir deneme"
+	cont "ürünü vereyim!"
 	prompt
 
 _Route1Youngster1GotPotionText::
-	text "<PLAYER> got"
-	line "@"
+	text "<PLAYER> bir @"
 	text_ram wStringBuffer
-	text "!@"
+	text "" 
+	line "edindi!@"
 	text_end
 
 _Route1Youngster1AlsoGotPokeballsText::
-	text "We also carry"
-	line "# BALLs for"
-	cont "catching #MON!"
+	text "Ayrıca #MON"
+	line "yakalamak için"
+	cont "# TOP'ları da"
+	cont "satıyoruz." 
 	done
 
 _Route1Youngster1NoRoomText::
-	text "You have too much"
-	line "stuff with you!"
+	text "Çantan tıka"
+	line "basa dolu!"
 	done
 
 _Route1Youngster2Text::
-	text "See those ledges"
-	line "along the road?"
+	text "Yolun kenarındaki"
+	line "çıkıntıları"
+	cont "görüyor musun?" 
 
-	para "It's a bit scary,"
-	line "but you can jump"
-	cont "from them."
+	para "İstersen"
+	line "üstünden atlamayı"
+	cont "deneyebilirsin."
 
-	para "You can get back"
-	line "to PALLET TOWN"
-	cont "quicker that way."
+	para "PALET KASABASI'na"
+	line "böylece daha hızlı"
+	cont "varabiliyorsun."
 	done
 
 _Route1SignText::
-	text "ROUTE 1"
-	line "PALLET TOWN -"
-	cont "VIRIDIAN CITY"
+	text "1. YOL"
+	line "PALET KASABASI -"
+	cont "VIRIDIAN ŞEHRİ"
 	done

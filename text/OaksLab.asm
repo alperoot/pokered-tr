@@ -311,61 +311,63 @@ _OaksLabOakMyInventionPokedexText::
 	cont "bilgisini"
 	cont "kaydeder!"
 
-	para "It's a hi-tech"
-	line "encyclopedia!"
+	para "Yüksek teknoloji"
+	line "bir ansiklopedi"
+	cont "gibi!"
 	done
 
 _OaksLabOakGotPokedexText::
-	text "OAK: <PLAYER> and"
-	line "<RIVAL>! Take"
-	cont "these with you!"
+	text "OAK: <PLAYER> ve"
+	line "<RIVAL>! Bunu"
+	cont "yanınıza alın!"
 
-	para "<PLAYER> got"
-	line "#DEX from OAK!@"
+	para "<PLAYER> artık"
+	line "#DEX sahibi!@"
 	text_end
 
 _OaksLabOakThatWasMyDreamText::
-	text "To make a complete"
-	line "guide on all the"
-	cont "#MON in the"
-	cont "world..."
+	text "Dünya üzerindeki"
+	line "bütün #MON'ları"
+	cont "listelemek..."
 
-	para "That was my dream!"
+	para "Hayalim buydu!"
 
-	para "But, I'm too old!"
-	line "I can't do it!"
+	para "Ama yaşlandım."
+	line "Çok zorlanıyorum!"
 
-	para "So, I want you two"
-	line "to fulfill my"
-	cont "dream for me!"
+	para "Bu yüzden"
+	line "hayallerimi"
+	cont "gerçekleştirmenizi"
+	cont "istiyorum!"
 
-	para "Get moving, you"
-	line "two!"
+	para "Hadi,"
+	line "kımıldayın!"
 
-	para "This is a great"
-	line "undertaking in"
-	cont "#MON history!"
+	para "#MON tarihinin"
+	line "bir parçası"
+	cont "olacaksınız!"
 	done
 
 _OaksLabRivalLeaveItAllToMeText::
-	text "<RIVAL>: Alright"
-	line "Gramps! Leave it"
-	cont "all to me!"
+	text "<RIVAL>: Pekala"
+	line "dede! Bunu"
+	cont "bana bırak!"
 
-	para "<PLAYER>, I hate to"
-	line "say it, but I"
-	cont "don't need you!"
+	para "<PLAYER>, bunu"
+	line "demek istemezdim,"
+	cont "ama sana"
+	cont "ihtiyacım yok!"
 
-	para "I know! I'll"
-	line "borrow a TOWN MAP"
-	cont "from my sis!"
+	para "Kardeşimden de"
+	line "bir HARİTA"
+	cont "isteyeceğim!"
 
-	para "I'll tell her not"
-	line "to lend you one,"
+	para "Sana vermemesini"
+	line "tembihleyeyim,"
 	cont "<PLAYER>! Hahaha!"
 	done
 
 _OaksLabScientistText::
-	text "I study #MON as"
-	line "PROF.OAK's AIDE."
+	text "PROF.OAK'ın"
+	line "asistanıyım."
 	done

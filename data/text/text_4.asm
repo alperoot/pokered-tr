@@ -18,8 +18,8 @@ _PlayerBlackedOutText::
 	prompt
 
 _RepelWoreOffText::
-	text "REPEL's effect"
-	line "wore off."
+	text "SPREY'in etkisi"
+	line "bitti."
 	done
 
 _PokemartBuyingGreetingText::
@@ -152,80 +152,82 @@ _ForgotAndText::
 	prompt
 
 _HMCantDeleteText::
-	text "HM techniques"
-	line "can't be deleted!"
+	text "Gizli Makine"
+	line "hareketleri"
+	cont "silinemez!"
 	prompt
 
 _PokemonCenterWelcomeText::
-	text "Welcome to our"
-	line "#MON CENTER!"
+	text "#MON MERKEZ'ine"
+	line "hoş geldiniz!"
 
-	para "We heal your"
-	line "#MON back to"
-	cont "perfect health!"
+	para "#MON'larınızı"
+	line "tamamen"
+	cont "iyileştiriyoruz!"
 	prompt
 
 _ShallWeHealYourPokemonText::
-	text "Shall we heal your"
-	line "#MON?"
+	text "İyileştirmemizi"
+	line "ister misiniz?"
 	done
 
 _NeedYourPokemonText::
-	text "OK. We'll need"
-	line "your #MON."
+	text "Peki, #MON'ları"
+	line "alayım."
 	done
 
 _PokemonFightingFitText::
-	text "Thank you!"
-	line "Your #MON are"
-	cont "fighting fit!"
+	text "Tamamdır!"
+	line "#MON'larınız"
+	cont "zindeliklerine"
+	cont "kavuştu!"
 	prompt
 
 _PokemonCenterFarewellText::
-	text "We hope to see"
-	line "you again!"
+	text "Yine bekleriz!"
 	done
 
 _CableClubNPCAreaReservedFor2FriendsLinkedByCableText::
-	text "This area is"
-	line "reserved for 2"
-	cont "friends who are"
-	cont "linked by cable."
+	text "Burası kablo"
+	line "ile bağlı"
+	cont "2 arkadaş için"
+	cont "ayrılmıştır."
 	done
 
 _CableClubNPCWelcomeText::
-	text "Welcome to the"
-	line "Cable Club!"
+	text "Kablo Klübüne"
+	line "hoş geldiniz!"
 	done
 
 _CableClubNPCPleaseApplyHereHaveToSaveText::
-	text "Please apply here."
+	text "Sizi böyle alayım."
 
-	para "Before opening"
-	line "the link, we have"
-	cont "to save the game."
+	para "Bağlantı kurmadan"
+	line "önce oyunu kayıt"
+	cont "etmemiz gerekiyor."
 	done
 
 _CableClubNPCPleaseWaitText::
-	text "Please wait.@"
+	text "Lütfen bekleyin.@"
 	text_end
 
 _CableClubNPCLinkClosedBecauseOfInactivityText::
 	vc_patch Change_link_closed_inactivity_message
 IF DEF(_RED_VC) || DEF(_BLUE_VC)
-	text "Please come again!"
+	text "Yine bekleriz!"
 	done
 	text_start
 	text "sed because of"
 	cont "inactivity."
 ELSE
-	text "The link has been"
-	line "closed because of"
-	cont "inactivity."
+	text "Hareketsizlik"
+	line "sebebiyle"
+	cont "bağlantı gitti."
 ENDC
 	vc_patch_end
 
-	para "Please contact"
-	line "your friend and"
-	cont "come again!"
+	para "Lütfen"
+	line "arkadaşınızla"
+	cont "iletişime geçip"
+	cont "tekrar deneyin!"
 	done
