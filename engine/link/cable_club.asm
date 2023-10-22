@@ -293,7 +293,7 @@ CableClub_DoBattleOrTradeAgain:
 	jr CallCurrentTradeCenterFunction
 
 PleaseWaitString:
-	db "LÜTFEN BEKLEYİN!@"
+	db "BEKLEYİNİZ.!@"
 
 CallCurrentTradeCenterFunction:
 	ld hl, TradeCenterPointerTable

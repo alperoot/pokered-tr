@@ -57,15 +57,16 @@ _ItemUseBallText06::
 	text_end
 
 _SurfingGotOnText::
-	text "<PLAYER> got on"
+	text "<PLAYER> ve"
 	line "@"
 	text_ram wcd6d
-	text "!"
+	text ""
+	cont "yüzüyor!"
 	prompt
 
 _SurfingNoPlaceToGetOffText::
-	text "There's no place"
-	line "to get off!"
+	text "İnilecek yer"
+	line "yok!"
 	prompt
 
 _VitaminStatRoseText::
@@ -77,31 +78,31 @@ _VitaminStatRoseText::
 	prompt
 
 _VitaminNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "Herhangi bir"
+	line "etkisi olmadı."
 	prompt
 
 _ThrewBaitText::
-	text "<PLAYER> threw"
-	line "some BAIT."
+	text "<PLAYER> biraz"
+	line "YEM attı."
 	done
 
 _ThrewRockText::
-	text "<PLAYER> threw a"
-	line "ROCK."
+	text "<PLAYER> bir"
+	line "TAŞ fırlattı."
 	done
 
 _PlayedFluteNoEffectText::
-	text "Played the #"
-	line "FLUTE."
+	text "#FLÜT'ünü"
+	line "çaldın."
 
-	para "Now, that's a"
-	line "catchy tune!"
+	para "Ne güzel"
+	line "bir melodi!"
 	prompt
 
 _FluteWokeUpText::
-	text "All sleeping"
-	line "#MON woke up."
+	text "Uyuyan bütün"
+	line "#MON'lar uyandı"
 	prompt
 
 _PlayedFluteHadEffectText::
@@ -117,14 +118,14 @@ _CoinCaseNumCoinsText::
 	prompt
 
 _ItemfinderFoundItemText::
-	text "Yes! ITEMFINDER"
-	line "indicates there's"
-	cont "an item nearby."
+	text "EŞYA BULUCU"
+	line "etrafta bir"
+	cont "eşya tespit etti!"
 	prompt
 
 _ItemfinderFoundNothingText::
-	text "Nope! ITEMFINDER"
-	line "isn't responding."
+	text "EŞYA BULUCU bir"
+	line "şey bulamadı."
 	prompt
 
 _RaisePPWhichTechniqueText::
@@ -154,78 +155,80 @@ _PPRestoredText::
 	prompt
 
 _BootedUpTMText::
-	text "Booted up a TM!"
+	text "TM başlatıldı!"
 	prompt
 
 _BootedUpHMText::
-	text "Booted up an HM!"
+	text "GM başlatıldı!"
 	prompt
 
 _TeachMachineMoveText::
-	text "It contained"
+	text "İçinde"
 	line "@"
 	text_ram wStringBuffer
-	text "!"
+	text " var!"
 
-	para "Teach @"
+	para "@"
 	text_ram wStringBuffer
 	text_start
-	line "to a #MON?"
+	line "bir #MON'a"
+	cont "öğretilsin mi?"
 	done
 
 _MonCannotLearnMachineMoveText::
 	text_ram wcd6d
-	text " is not"
-	line "compatible with"
-	cont "@"
-	text_ram wStringBuffer
-	text "."
-
-	para "It can't learn"
+	text " ve"
 	line "@"
 	text_ram wStringBuffer
-	text "."
+	text ""
+	cont "uyumlu değil."
+
+	para "@"
+	text_ram wStringBuffer
+	text ""
+	line "öğrenemez."
 	prompt
 
 _ItemUseNotTimeText::
 	text "OAK: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that! "
+	line "Şimdi bunun"
+	cont "sırası değil! "
 	prompt
 
 _ItemUseNotYoursToUseText::
-	text "This isn't yours"
-	line "to use!"
+	text "Bu eşya sana"
+	line "ait değil!"
 	prompt
 
 _ItemUseNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "Herhangi bir"
+	line "etkisi olmadı."
 	prompt
 
 _ThrowBallAtTrainerMonText1::
-	text "The trainer"
-	line "blocked the BALL!"
+	text "Eğitmen TOP'u"
+	line "savuşturdu!"
 	prompt
 
 _ThrowBallAtTrainerMonText2::
-	text "Don't be a thief!"
+	text "Hırsızlık yapma!"
 	prompt
 
 _NoCyclingAllowedHereText::
-	text "No cycling"
-	next "allowed here."
+	text "Burada bisiklet"
+	next "sürmek yasak."
 	prompt
 
 _NoSurfingHereText::
-	text "No SURFing on"
+	text "Burada"
 	line "@"
 	text_ram wcd6d
-	text " here!"
+	text " ile"
+	cont "yüzemezsin."
 	prompt
 
 _BoxFullCannotThrowBallText::
-	text "The #MON BOX"
-	line "is full! Can't"
-	cont "use that item!"
+	text "#MON KUTU'su"
+	line "dolmuş! Bunu"
+	cont "kullanamazsın!"
 	prompt

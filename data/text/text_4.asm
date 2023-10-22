@@ -97,38 +97,41 @@ _WhichMoveToForgetText::
 _AbandonLearningText::
 	text "@"
 	text_ram wStringBuffer
-	line "unutmaktan"
+	text ""
+	line "öğrenmekten"
 	cont "vazgeçilsin mi?"
 	done
 
 _DidNotLearnText::
 	text_ram wLearnMoveMonName
-	text_start
-	line "did not learn"
-	cont "@"
+	text ""
+	line "@"
 	text_ram wStringBuffer
-	text "!"
+	text ""
+	cont "öğrenmedi."
 	prompt
 
 _TryingToLearnText::
 	text_ram wLearnMoveMonName
-	text " is"
-	line "trying to learn"
-	cont "@"
+	text ""
+	line "@"
 	text_ram wStringBuffer
-	text "!"
+	text ""
+	cont "öğrenmek istiyor"
 
-	para "But, @"
+	para "Ama @"
 	text_ram wLearnMoveMonName
 	text_start
-	line "can't learn more"
-	cont "than 4 moves!"
+	line "en fazla 4"
+	cont "yetenek"
+	cont "hatırlayabilir."
 
-	para "Delete an older"
-	line "move to make room"
-	cont "for @"
+	para "@"
 	text_ram wStringBuffer
-	text "?"
+	text ""
+	line "için başka bir"
+	cont "yetenek"
+	cont "unutulsun mu?"
 	done
 
 _OneTwoAndText::

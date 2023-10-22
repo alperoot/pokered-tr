@@ -19,17 +19,6 @@ _AIBattleUseItemText::
 	cont "kullandı!"
 	prompt
 
-; _AIBattleUseItemText::
-	; text_ram wTrainerName
-	; text_start
-	; line "used @"
-	; text_ram wcd6d
-	; text_start
-	; cont "on @"
-	; text_ram wEnemyMonNick
-	; text "!"
-	; prompt
-
 _TradeWentToText::
 	text_ram wStringBuffer
 	text " went"
