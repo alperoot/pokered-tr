@@ -1,58 +1,58 @@
 _CeruleanGymMistyPreBattleText::
-	text "Hi, you're a new"
-	line "face!"
+	text "Yeni birine"
+	line "benziyorsun!"
 
-	para "Trainers who want"
-	line "to turn pro have"
-	cont "to have a policy"
-	cont "about #MON!"
+	para "Eğer en iyilerin"
+	line "arasında olmak"
+	cont "istiyorsan bir"
+	cont "stratejin olmalı."
 
-	para "What is your"
-	line "approach when you"
-	cont "catch #MON?"
+	para "Peki ya sen"
+	line "#MON yakalamaya"
+	cont "nasıl yaklaşırsın?"
 
-	para "My policy is an"
-	line "all-out offensive"
-	cont "with water-type"
-	cont "#MON!"
+	para "Benim stratejim"
+	line "su türü #MON'lar"
+	cont "ile var gücümle"
+	cont "saldırmak!"
 	done
 
 _CeruleanGymMistyTM11ExplanationText::
-	text "TM11 teaches"
-	line "BUBBLEBEAM!"
+	text "TM11'de"
+	line "BALONCUKTOPU var!"
 
-	para "Use it on an"
-	line "aquatic #MON!"
+	para "Su türü #MON'a"
+	line "öğretebilirsin!"
 	done
 
 _CeruleanGymMistyCascadeBadgeInfoText::
-	text "The CASCADEBADGE"
-	line "makes all #MON"
-	cont "up to L30 obey!"
+	text "ŞELALEROZETİ ile"
+	line "30. seviyeye kadar"
+	cont "tüm #MON'lar ile!"
+	cont "anlaşabilirsin!"
 
-	para "That includes"
-	line "even outsiders!"
+	para "Yabancılar bile!"
 
-	para "There's more, you"
-	line "can now use CUT"
-	cont "any time!"
+	para "Ayrıca KESME"
+	line "yeteneğini"
+	cont "de kullanabilirsin!"
 
-	para "You can CUT down"
-	line "small bushes to"
-	cont "open new paths!"
+	para "Bu sayede küçük"
+	line "çalıları keserek"
+	cont "yeni yollar bul!"
 
-	para "You can also have"
-	line "my favorite TM!"
+	para "En sevdiğim TM'den"
+	line "de vereyim!"
 	done
 
 _CeruleanGymMistyReceivedTM11Text::
-	text "<PLAYER> received"
-	line "TM11!@"
+	text "<PLAYER> TM11"
+	line "edindi!@"
 	text_end
 
 _CeruleanGymMistyTM11NoRoomText::
-	text "You better make"
-	line "room for this!"
+	text "Çantanda yer"
+	line "aç bence!"
 	done
 
 _CeruleanGymMistyReceivedCascadeBadgeText::

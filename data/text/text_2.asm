@@ -923,7 +923,8 @@ _LinkBattleLostText::
 
 _TrainerAboutToUseText::
 	text_ram wTrainerName
-	text "@"
+	text ""
+	line "@"
 	; cont "@"
 	text_ram wEnemyMonNick
 	text ""

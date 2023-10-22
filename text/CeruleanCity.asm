@@ -1,102 +1,101 @@
 _CeruleanCityRivalPreBattleText::
-	text "<RIVAL>: Yo!"
+	text "<RIVAL>: Hey!"
 	line "<PLAYER>!"
 
-	para "You're still"
-	line "struggling along"
-	cont "back here?"
+	para "Hala buralarda"
+	line "mısın?"
 
-	para "I'm doing great!"
-	line "I caught a bunch"
-	cont "of strong and"
-	cont "smart #MON!"
+	para "Ben çok ilerledim!"
+	line "Bir sürü güçlü"
+	cont "ve zeki #MON"
+	cont "yakaladım!"
 
-	para "Here, let me see"
-	line "what you caught,"
+	para "Bir bakayım sen"
+	line "neler yakalamışsın"
 	cont "<PLAYER>!"
 	done
 
 _CeruleanCityRivalDefeatedText::
 	text "Hey!"
-	line "Take it easy!"
-	cont "You won already!"
+	line "Tamam tamam,"
+	cont "sen kazandın!"
 	prompt
 
 _CeruleanCityRivalVictoryText::
 	text "Heh!"
-	line "You're no match"
-	cont "for my genius!"
+	line "Benimle başa"
+	cont "çıkamazsın!"
 	prompt
 
 _CeruleanCityRivalIWentToBillsText::
 	text "<RIVAL>: Hey,"
-	line "guess what?"
+	line "bil bakalım?"
 
-	para "I went to BILL's"
-	line "and got him to"
-	cont "show me his rare"
-	cont "#MON!"
+	para "BILL'in evine"
+	line "uğrayıp nadir"
+	cont "#MON'larını"
+	cont "gördüm!"
 
-	para "That added a lot"
-	line "of pages to my"
-	cont "#DEX!"
+	para "#DEX'ime"
+	line "bayağı katkısı"
+	cont "oldu!"
 
-	para "After all, BILL's"
-	line "world famous as a"
-	cont "#MANIAC!"
+	para "BILL dünyaca ünlü"
+	line "bir #MANYAK"
+	cont "sonuçta!"
 
-	para "He invented the"
-	line "#MON Storage"
-	cont "System on PC!"
+	para "#MON depolama"
+	line "sisteminin de"
+	cont "mucidi ayrıca!"
 
-	para "Since you're using"
-	line "his system, go"
-	cont "thank him!"
+	para "Git bir teşekkür"
+	line "et en azından!"
 
-	para "Well, I better"
-	line "get rolling!"
-	cont "Smell ya later!"
+	para "Neyse ben"
+	line "kaçtım! Sonra"
+	cont "görüşürüz!"
 	done
 
 _CeruleanCityRocketText::
-	text "Hey! Stay out!"
-	line "It's not your"
-	cont "yard! Huh? Me?"
+	text "Hey! Çık burdan!"
+	line "Burası senin"
+	cont "bahçen değil!"
+	cont "Ne? Ben mi?"
 
-	para "I'm an innocent"
-	line "bystander! Don't"
-	cont "you believe me?"
+	para "Masum masum"
+	line "duruyorum sadece."
+	cont "Yoksa bana"
+	cont "inanmıyor musun?"
 	done
 
 _CeruleanCityRocketReceivedTM28Text::
-	text "<PLAYER> recovered"
-	line "TM28!@"
+	text "<PLAYER> TM28'i"
+	line "kurtardı!@"
 	text_end
 
 _CeruleanCityRocketIBetterGetMovingText::
 	text_start
 
-	para "I better get"
-	line "moving! Bye!@"
+	para "Kımıldasam iyi"
+	line "olacak! Güle güle!@"
 	text_end
 
 _CeruleanCityRocketTM28NoRoomText::
-	text "Make room for"
-	line "this!"
+	text "Çantanda biraz"
+	line "yer aç!"
 
-	para "I can't run until"
-	line "I give it to you!"
+	para "Bunu sana"
+	line "vermeden kaçamam!"
 	done
 
 _CeruleanCityRocketIGiveUpText::
-	text "Stop!"
-	line "I give up! I'll"
-	cont "leave quietly!"
+	text "Yeter!"
+	line "Pes ediyorum!"
 	prompt
 
 _CeruleanCityRocketIllReturnTheTMText::
-	text "OK! I'll return"
-	line "the TM I stole!"
+	text "Çaldığım TM'yi de"
+	line "geri vereceğim!"
 	prompt
 
 _CeruleanCityCooltrainerMText::
