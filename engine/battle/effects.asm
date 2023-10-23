@@ -347,6 +347,12 @@ FireDefrostedText:
 	text_end
 
 StatModifierUpEffect:
+	ld hl, wLearnMoveMonName
+	ld a, "'i"
+	ld [hli], a
+	ld a, "n"
+	ld [hli], a
+	ld [hl], "@"
 	ld hl, wPlayerMonStatMods
 	ld de, wPlayerMoveEffect
 	ldh a, [hWhoseTurn]
@@ -535,6 +541,12 @@ RoseText:
 	text_end
 
 StatModifierDownEffect:
+	ld hl, wLearnMoveMonName
+	ld a, "'i"
+	ld [hli], a
+	ld a, "n"
+	ld [hli], a
+	ld [hl], "@"
 	ld hl, wEnemyMonStatMods
 	ld de, wPlayerMoveEffect
 	ld bc, wEnemyBattleStatus1
@@ -716,6 +728,12 @@ MoveMissed:
 MonsStatsFellText:
 	text_far _MonsStatsFellText
 	text_asm
+	ld hl, wLearnMoveMonName
+	ld a, "'i"
+	ld [hli], a
+	ld a, "n"
+	ld [hli], a
+	ld [hl], "@"
 	ld hl, FellText
 	ldh a, [hWhoseTurn]
 	and a

@@ -468,7 +468,7 @@ _GameCornerSomeonesKeysText::
 	done
 
 _JustAMomentText::
-	text "Just a moment."
+	text "Bir saniye."
 	done
 
 TMNotebookText::

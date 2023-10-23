@@ -94,9 +94,10 @@ _FireDefrostedText::
 	prompt
 
 _MonsStatsRoseText::
-	text "<USER>"
-	line "daha"
-	cont "@"
+	text "<USER>@"
+	text_ram wLearnMoveMonName
+	text ""
+	line "@"
 	text_ram wStringBuffer
 	text "@"
 	text_end
@@ -106,13 +107,14 @@ _GreatlyRoseText::
 	text_end
 
 _RoseText::
-	text "!"
+	text " arttı!"
 	prompt
 
 _MonsStatsFellText::
-	text "<TARGET>"
-	line "daha az"
-	cont "@"
+	text "<TARGET>@"
+	text_ram wLearnMoveMonName
+	text ""
+	line "@"
 	text_ram wStringBuffer
 	text "@"
 	text_end
@@ -122,7 +124,7 @@ _GreatlyFellText::
 	text_end
 
 _FellText::
-	text "!"
+	text " azaldı!"
 	prompt
 
 _RanFromBattleText::
