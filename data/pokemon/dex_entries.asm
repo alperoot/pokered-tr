@@ -247,7 +247,7 @@ NidokingDexEntry:
 	text_end
 
 SlowbroDexEntry:
-	db "HT.YENGECİ@"
+	db "HERMİT@"
 	db 16
 	dw 785
 	text_far _SlowbroDexEntry
@@ -268,7 +268,7 @@ ExeggutorDexEntry:
 	text_end
 
 LickitungDexEntry:
-	db "YALAYAN@"
+	db "DİLLİ@"
 	db 12
 	dw 655
 	text_far _LickitungDexEntry

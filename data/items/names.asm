@@ -10,7 +10,7 @@ ItemNames::
 	li "SAFARİ TOPU"
 	li "POKéDEX"
 	li "AY TAŞI"
-	li "ZEHİR İLACI"
+	li "PANZEHİR"
 	li "SÖNDÜRÜCÜ"
 	li "BUZ ÇÖZÜCÜ"
 	li "UYANDIRICI"
