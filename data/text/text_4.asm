@@ -165,8 +165,8 @@ _PokemonCenterWelcomeText::
 	line "hoş geldiniz!"
 
 	para "#MON'larınızı"
-	line "tamamen"
-	cont "iyileştiriyoruz!"
+	line "iyileştirelim"
+	cont "mi?"
 	prompt
 
 _ShallWeHealYourPokemonText::
@@ -187,7 +187,7 @@ _PokemonFightingFitText::
 	prompt
 
 _PokemonCenterFarewellText::
-	text "Yine bekleriz!"
+	text "Görüşmek üzere!"
 	done
 
 _CableClubNPCAreaReservedFor2FriendsLinkedByCableText::

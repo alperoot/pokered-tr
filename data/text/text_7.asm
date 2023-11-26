@@ -1,19 +1,20 @@
 _ItemUseText001::
-	text "<PLAYER> used@"
+	text "<PLAYER>@"
 	text_end
 
 _ItemUseText002::
 	text_ram wStringBuffer
-	text "!"
+	text ""
+	cont "kullandı!"
 	done
 
 _GotOnBicycleText1::
-	text "<PLAYER> got on the@"
+	text "<PLAYER>@"
 	text_end
 
 _GotOnBicycleText2::
 	text_ram wStringBuffer
-	text "!"
+	text " biniyor!"
 	prompt
 
 _GotOffBicycleText1::
@@ -41,8 +42,8 @@ _IsItOKToTossItemText::
 	prompt
 
 _TooImportantToTossText::
-	text "That's too impor-"
-	line "tant to toss!"
+	text "Bu eşya fazla"
+	line "önemli!"
 	prompt
 
 _AlreadyKnowsText::
@@ -189,12 +190,12 @@ _AfterTrade3Text::
 	done
 
 _NothingToCutText::
-	text "There isn't"
-	line "anything to CUT!"
+	text "KESECEK bir"
+	line "şey yok!"
 	prompt
 
 _UsedCutText::
 	text_ram wcd6d
-	text " hacked"
-	line "away with CUT!"
+	text " KESME"
+	line "ile çalı biçti!"
 	prompt

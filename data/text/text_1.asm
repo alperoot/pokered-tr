@@ -28,8 +28,8 @@ _NothingHereText::
 	prompt
 
 _ItsABiteText::
-	text "İşte!"
-	line "Oltada bir şey var!"
+	text "İşte! Oltada"
+	line "bir şey var!"
 	prompt
 
 _ExclamationText::
