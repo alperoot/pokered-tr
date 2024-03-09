@@ -1,38 +1,40 @@
 _SaffronGateGuardGeeImThirstyText::
-	text "I'm on guard duty."
-	line "Gee, I'm thirsty,"
-	cont "though!"
+	text "Üff, soğuk bir"
+	line "şeyler olsa da"
+	cont "içsek şimdi!"
 
-	para "Oh wait there,"
-	line "the road's closed."
+	para "Hey, sen!"
+	line "Bu yol kapalı!"
 	done
 
 _SaffronGateGuardImParchedText::
-	text "Whoa, boy!"
-	line "I'm parched!"
+	text "O kadar"
+	line "susadım ki!"
 	cont "..."
-	cont "Huh? I can have"
-	cont "this drink?"
-	cont "Gee, thanks!@"
+	cont "Bu içecek"
+	cont "benim için mi?"
+	cont "Su getirenin"
+	cont "bol olsun!@"
 	text_end
 
 _SaffronGateGuardYouCanGoOnThroughText::
 	text_start
 
 	para "..."
-	line "Glug glug..."
+	line "Lıkır lıkır..."
 	cont "..."
-	cont "Gulp..."
-	cont "If you want to go"
-	cont "to SAFFRON CITY..."
+	cont "Ohh..."
+	cont "SAFRAN ŞEHİRİ'ne"
+	cont "gitmek istiyorsan..."
 	cont "..."
-	cont "You can go on"
-	cont "through. I'll"
-	cont "share this with"
-	cont "the other guards!"
+	cont "Buradan geç."
+	cont "Ben bu içeceği"
+	cont "diğer korumalarla"
+	cont "da paylaşacağım!"
 	done
 
 _SaffronGateGuardThanksForTheDrinkText::
-	text "Hi, thanks for"
-	line "the cool drinks!"
+	text "Selam, soğuk"
+	line "içecekler için"
+	cont "sağol!"
 	done

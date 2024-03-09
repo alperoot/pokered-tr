@@ -347,8 +347,8 @@ NewGameText:
 	next "AYARLAR@"
 
 CableClubOptionsText:
-	db   "TRADE CENTER"
-	next "COLOSSEUM"
+	db   "<PK><MN> TAKASI"
+	next "ARENA"
 	next "İPTAL@"
 
 DisplayContinueGameInfo:

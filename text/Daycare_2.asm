@@ -1,34 +1,34 @@
 _DaycareGentlemanAllRightThenText::
-	text "All right then,"
+	text "Pekala,"
 	line "@"
 	text_end
 
 _DaycareGentlemanComeAgainText::
-	text "come again."
+	text "yine bekleriz."
 	done
 
 _DaycareGentlemanNoRoomForMonText::
-	text "You have no room"
-	line "for this #MON!"
+	text "Bu #MON için"
+	line "yerin yok!"
 	done
 
 _DaycareGentlemanOnlyHaveOneMonText::
-	text "You only have one"
-	line "#MON with you."
+	text "Yanında yalnızca"
+	line "bir #MON var."
 	done
 
 _DaycareGentlemanCantAcceptMonWithHMText::
-	text "I can't accept a"
-	line "#MON that"
-	cont "knows an HM move."
+	text "GM bilen bir"
+	line "#MON'u kabul"
+	cont "edemem."
 	done
 
 _DaycareGentlemanHeresYourMonText::
-	text "Thank you! Here's"
-	line "your #MON!"
+	text "Eyvallah! İşte"
+	line "senin #MON'un!"
 	prompt
 
 _DaycareGentlemanNotEnoughMoneyText::
-	text "Hey, you don't"
-	line "have enough ¥!"
+	text "Paran yetince"
+	line "gel!"
 	done

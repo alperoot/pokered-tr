@@ -1,62 +1,61 @@
 _DaycareGentlemanIntroText::
-	text "I run a DAYCARE."
-	line "Would you like me"
-	cont "to raise one of"
-	cont "your #MON?"
+	text "Bendeniz BAKICI."
+	line "#MON'larından"
+	cont "birini"
+	cont "yetiştireyim mi?"
 	done
 
 _DaycareGentlemanWhichMonText::
-	text "Which #MON"
-	line "should I raise?"
+	text "Hangi #MON'u"
+	line "yetiştireyim?"
 	prompt
 
 _DaycareGentlemanWillLookAfterMonText::
-	text "Fine, I'll look"
-	line "after @"
+	text "Tamamdır,"
+	line "@"
 	text_ram wcd6d
 	text_start
-	cont "for a while."
+	cont "artık benimle."
 	prompt
 
 _DaycareGentlemanComeSeeMeInAWhileText::
-	text "Come see me in"
-	line "a while."
+	text "Bir süre sonra"
+	line "ziyaret et."
 	done
 
 _DaycareGentlemanMonHasGrownText::
-	text "Your @"
+	text "Senin @"
 	text_ram wcd6d
 	text_start
-	line "has grown a lot!"
+	line "amma da büyüdü!"
 
-	para "By level, it's"
-	line "grown by @"
+	para "Hem de tam"	
+	line "tamına @"
 	text_decimal wDayCareNumLevelsGrown, 1, 3
-	text "!"
+	text " seviye!"
 
-	para "Aren't I great?"
+	para "Yapıyoruz bu işi!"
 	prompt
 
 _DaycareGentlemanOweMoneyText::
-	text "You owe me ¥@"
+	text "Emeğim için ¥@"
 	text_bcd wDayCareTotalCost, 2 | LEADING_ZEROES | LEFT_ALIGN
 	text_start
-	line "for the return"
-	cont "of this #MON."
+	line "istiyorum."
 	done
 
 _DaycareGentlemanGotMonBackText::
-	text "<PLAYER> got"
+	text "<PLAYER> ve"
 	line "@"
 	text_ram wDayCareMonName
-	text " back!"
+	text " kavuştu!"
 	done
 
 _DaycareGentlemanMonNeedsMoreTimeText::
-	text "Back already?"
-	line "Your @"
+	text "Hemen döndün mü?"
+	line "Senin @"
 	text_ram wcd6d
 	text_start
-	cont "needs some more"
-	cont "time with me."
+	cont "biraz daha"
+	cont "benimle kalmalı."
 	prompt

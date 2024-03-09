@@ -21,59 +21,73 @@ _AIBattleUseItemText::
 
 _TradeWentToText::
 	text_ram wStringBuffer
-	text " went"
-	line "to @"
+	text " @"
 	text_ram wLinkEnemyTrainerName
-	text "."
+	text ""
+	line "kişisine gitti."
 	done
 
 _TradeForText::
-	text "For <PLAYER>'s"
+	text "<PLAYER> tarafından"
 	line "@"
 	text_ram wStringBuffer
-	text ","
+	text " için"
 	done
 
 _TradeSendsText::
 	text_ram wLinkEnemyTrainerName
-	text " sends"
-	line "@"
+	text " @"
 	text_ram wcd6d
-	text "."
+	text ""
+	line "gönderiyor."
 	done
 
 _TradeWavesFarewellText::
-	text_ram wLinkEnemyTrainerName
-	text " waves"
-	line "farewell as"
+	text_ram wcd6d
+	text ""
+	line "giderken"
 	done
 
 _TradeTransferredText::
-	text_ram wcd6d
-	text " is"
-	line "transferred."
+	text_ram wLinkEnemyTrainerName
+	text " ona"
+	line "veda ediyor."
 	done
 
 _TradeTakeCareText::
-	text "Take good care of"
-	line "@"
-	text_ram wcd6d
-	text "."
+	text "#MON'uma"
+	line "iyi bak!"
 	done
 
-_TradeWillTradeText::
-	text_ram wLinkEnemyTrainerName
-	text " will"
-	line "trade @"
-	text_ram wcd6d
-	text_start
+; _TradeWillTradeText::	
+	; text_ram wLinkEnemyTrainerName
+	; text " kişisi"
+	; line "@"
+	; text_ram wcd6d
+	; text " veriyor"
+	; text_start
+	; done
+
+; _TradeforText::
+	; text "<PLAYER> kişisinin"
+	; line "@"
+	; text_ram wStringBuffer
+	; text "<PK><MN>'u için"
+	; done
+	
+_TradeWillTradeText::	
+	text "<PLAYER> kişisinin"
+	line "@"
+	text_ram wStringBuffer
+	text " <PK><MN>'u için"
 	done
 
 _TradeforText::
-	text "for <PLAYER>'s"
+	text_ram wLinkEnemyTrainerName
+	text " kişisi"
 	line "@"
-	text_ram wStringBuffer
-	text "."
+	text_ram wcd6d
+	text " veriyor"
 	done
 
 _PlaySlotMachineText::
@@ -1579,55 +1593,55 @@ _MonWasStoredText::
 	prompt
 
 _CantDepositLastMonText::
-	text "You can't deposit"
-	line "the last #MON!"
+	text "Son #MON'unuzu"
+	line "depolayamazsınız!"
 	prompt
 
 _BoxFullText::
-	text "Oops! This Box is"
-	line "full of #MON."
+	text "Bu kutu"
+	line "#MON ile dolu."
 	prompt
 
 _MonIsTakenOutText::
 	text_ram wStringBuffer
-	text " is"
-	line "taken out."
-	cont "Got @"
+	text ""
+	line "alındı."
+	cont "Selam @"
 	text_ram wStringBuffer
-	text "."
+	text "!"
 	prompt
 
 _NoMonText::
-	text "What? There are"
-	line "no #MON here!"
+	text "Burada hiç"
+	line "#MON yok!"
 	prompt
 
 _CantTakeMonText::
-	text "You can't take"
-	line "any more #MON."
+	text "Daha fazla"
+	line "#MON taşıyamazsın."
 
-	para "Deposit #MON"
-	line "first."
+	para "Önce bir #MON"
+	line "depola."
 	prompt
 
 _ReleaseWhichMonText::
-	text "Release which"
-	line "#MON?"
+	text "Hangi #MON"
+	line "doğaya salınsın?"
 	done
 
 _OnceReleasedText::
-	text "Once released,"
+	text "Doğaya bırakıldığında,"
 	line "@"
 	text_ram wStringBuffer
-	text " is"
-	cont "gone forever. OK?"
+	text " geri"
+	cont "alınamaz. Devam?"
 	done
 
 _MonWasReleasedText::
 	text_ram wStringBuffer
-	text " was"
-	line "released outside."
-	cont "Bye @"
+	text " doğaya"
+	line "bırakıldı."
+	cont "Elveda @"
 	text_ram wStringBuffer
 	text "!"
 	prompt
@@ -1691,8 +1705,8 @@ _AccessedOaksPCText::
 	prompt
 
 _WhereWouldYouLikeText::
-	text "Where would you"
-	line "like to go?"
+	text "Ne yapmak"
+	line "istersiniz?"
 	done
 
 _PleaseWaitText::
